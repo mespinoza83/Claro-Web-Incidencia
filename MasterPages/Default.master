@@ -1,0 +1,152 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="MasterPages_Default" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%@ Register Src="../AppControls/wucLoading.ascx" TagName="wucLoading" TagPrefix="uc1" %>
+<%@ Register src="../AppControls/SiteMap.ascx" tagname="SiteMap" tagprefix="uc2" %>
+<%@ Register src="../AppControls/wucMessage.ascx" tagname="wucMessage" tagprefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta content="NO-CACHE" http-equiv="PRAGMA" />
+    <meta content="NO-CACHE" http-equiv="CACHE-CONTROL" />
+    <meta content="0" http-equiv="EXPIRES" />   	
+    <link href="/WebApp_NotificacionIncidencias/include/css/default.css" rel="stylesheet" type="text/css" />
+    <link href="/WebApp_NotificacionIncidencias/include/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/WebApp_NotificacionIncidencias/include/css/main.css" rel="stylesheet" type="text/css" />
+	<link href="/WebApp_NotificacionIncidencias/include/css/forms.css" rel="stylesheet" type="text/css" />
+	<link href="/WebApp_NotificacionIncidencias/include/css/rich_faces.css" rel="stylesheet" type="text/css" />
+    <link href="/WebApp_NotificacionIncidencias/include/css/tabControlStyle.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="/WebApp_NotificacionIncidencias/include/js/funciones.js" ></script>
+	<noscript>
+        <meta content="0; URL=../AppPages/no_java.aspx" http-equiv="REFRESH" />
+    </noscript>
+	<asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+	<asp:Label ID="lbResources" runat="server" Text=""></asp:Label>
+    <asp:Literal ID="litResources" runat="server"></asp:Literal>
+    <title>Sistema de Notificación de Incidencias</title>
+      
+    
+	   
+    <script language="javascript" type="text/javascript">
+        function AutoCompleteEx_OnClientItemSelected(sender, args) {
+            __doPostBack(sender.get_element().name, '');
+        }
+    </script>
+</head>
+<body>
+    <%= Session["resources"]%>	
+    <div id="wrapper">
+        <form id="frmMain" runat="server">		
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1"  EnableScriptGlobalization="true"
+            runat="server">
+        </asp:ToolkitScriptManager>
+        <div id="cabecera">
+            <div id="contenedor_cabecera">
+                <div id="espacio_logo">
+                    <div id="logo">
+                        <a href="#">
+                            <img src='<%=VirtualPathUtility.ToAbsolute("~/Include/imagenes/logotipo.png") %>'
+                                alt="Logomarca Intranet Telef&oacute;nica" width="100" height="99" border="0" />
+                        </a>
+                    </div>
+                    <div id="cierre_cabecera">
+                        <div id="cabecera_sistema" style="padding-top: 14px !important">
+                            <asp:Label ID="lblTitulo" runat="server" Text="Sistema de Notificación de Incidencias" CssClass="TituloPrincipal" > <%--  Width="300px" Style="font-size: 18px !important;
+                                font-weight: 700; text-align: center"--%>
+                            </asp:Label>
+                        </div>
+                        <div id="cabecera_usuario">
+                            <strong>Bienvenido:
+                                <%=Session["userName"]%>
+                                (<%=Session["totalActiveSessions"]%>)</strong><br />
+                            <em>Último Acceso:<%=Session["lastLoginDate"]%>
+                                IP:
+                                <%=Session["lastLoginIp"]%><br />
+                            </em>
+                            <table align="right" width="0%" border="0" cellspacing="0" cellpadding="0" >
+                                <tr >
+                                    <td >
+                                        <a href='<%=Session["home-page"] %>'>
+                                            <img src='<%=VirtualPathUtility.ToAbsolute("~/Include/imagenes/btn_inicio.gif") %>'
+                                                width="102" height="29" border="0" alt="Página de Inicio" title="Página de Inicio" /></a>
+												<%--style="margin-top: 3px;" --%>
+                                    </td >
+                                    <td >
+                                        <%--<a class="groupiframe" href='<%=VirtualPathUtility.ToAbsolute("~/ayuda.hlp") %>?r=<%=Session["ayuda-resource"] %>'>--%>
+                                        <a class="groupiframe" >
+                                            <img src='<%=VirtualPathUtility.ToAbsolute("~/Include/imagenes/btn_ayuda.gif") %>'
+                                                alt='<%=Session["ayuda-tooltip"] %>' title='<%=Session["ayuda-tooltip"] %>' border="0"
+                                                height="29" width="97"  /></a><%--style="margin-top: 3px;" --%>
+                                    </td>
+                                    <td >
+                                        <a href="../AppPages/LogOut.aspx">
+                                          <img src='<%=VirtualPathUtility.ToAbsolute("~/Include/imagenes/btn_salir.gif") %>'
+                                                alt="LogOut" width="99" height="29" border="0"  /></a> <%--style="margin-top: 3px;"--%>
+                                    </td>
+                                </tr>
+                            </table>
+                            <em></em>
+                        </div>
+                        <div id="cabecera_menu">
+                            <%=Session["menu"]%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contenedor_contenido">
+            <div id="contenido">
+                <asp:Panel ID="pnlBarraUrl" runat="server" SkinID="xoloPanelSiteMap">
+                </asp:Panel>
+                &nbsp;
+
+                <asp:ContentPlaceHolder ID="Body" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        </form>
+		
+        <div id="contenedor_pie">
+            <table border="0" cellspacing="0" cellpadding="4" class="pie">
+                <tr>
+                    <td width="0%" valign="middle">
+                        <img src='<%=VirtualPathUtility.ToAbsolute("~/include/imagenes/movistar.png") %>'
+                            alt="" width="24" height="19" />
+                    </td>
+                    <td valign="middle" nowrap="nowrap">
+                        ©2010 Telefonía Celular de Nicaragua S.A. Todos los derechos reservados
+                    </td>
+                </tr>
+            </table>
+        </div>
+		<script type="text/javascript">
+    Sys.Application.add_load(AppLoad);
+
+    function AppLoad() {
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequest);
+    }
+
+    function EndRequest(sender, args) {
+        // Check to see if there's an error on this request.
+        if (args.get_error() != undefined) {
+
+            var msg = args.get_error().message.replace("Sys.WebForms.PageRequestManagerServerErrorException: ", "");
+
+            // Show the custom error. 
+            // Here you can be creative and do whatever you want
+            // with the exception (i.e. call a modalpopup and show 
+            // a nicer error window). I will simply use 'alert'
+            //alert(msg);
+
+            // Let the framework know that the error is handled, 
+            //  so it doesn't throw the JavaScript alert.
+            args.set_errorHandled(true);
+        }
+    }
+	</script>
+    </div>
+</body>
+</html>

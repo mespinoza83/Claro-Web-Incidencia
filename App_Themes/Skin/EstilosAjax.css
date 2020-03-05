@@ -1,0 +1,127 @@
+﻿/* HOJA DE ESTILOS CONTROLES DE  AJAX */
+
+/* SlideShow styles */
+.watermark_style
+{
+    color: #C0C0C0;
+      font-style: italic;
+}
+.slideTitle
+{
+    font-weight: bold;
+    font-size: small;
+    font-style: italic;
+    background-color: #c0e2ea;
+}
+
+.slideDescription
+{
+    font-size: small;
+    font-weight: bold;
+}
+
+.validatorColor
+{
+    background-color: #fffacd;
+}
+
+.ListSearchExtenderPrompt
+{
+    font-style: italic;
+    color: Gray;
+    background-color: white;
+}
+
+
+/*Modal Popup*/
+.modalBackground
+{
+    /*position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #040e1e;
+    filter: alpha(opacity=90);
+    opacity: 0.9;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #040e1e;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    text-align: center;
+}
+
+.modalPopup
+{
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0e5c83;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.CajaDialogo
+{
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0099FF;
+    padding: 0px;
+}
+.FondoAplicacion
+{
+    background-color: #040e1e;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.sampleStyleA
+{
+    background-color: #FFF;
+}
+
+.sampleStyleB
+{
+    background-color: #FFF;
+    font-family: monospace;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.sampleStyleC
+{
+    background-color: #ddffdd;
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.sampleStyleD
+{
+    background-color: Blue;
+    color: White;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+/* Estilos para Acordion */
+.accordionContenido
+{
+    font-family: Trebuchet MS;
+    background-color: #e0f0d7;
+    border-top: none;
+    font-size: 12px;
+    padding: 7px;
+    color: #000;
+}
+
+.lbl_message
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+

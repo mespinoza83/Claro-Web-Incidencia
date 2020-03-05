@@ -1,0 +1,77 @@
+﻿.image-container{
+    background-color: #d52b1e;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.form-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 100vh;
+}
+.page-footer{
+   position: fixed;
+   bottom: 0;
+   padding: 15px 6px;
+   margin-top:auto;
+}
+.page-footer small{
+    vertical-align: middle;
+    color: #AFAFAF;
+    padding: 10px;
+}
+.heading h3{
+   font-weight: 600;
+   color: #FFFFFF;
+   padding: 1px;
+}
+
+
+.form-container .form-input{
+  position: relative;
+}
+.form-container .form-input input{
+  width: 60%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #393939;
+  border-radius: 5px 5px 5px 5px;
+  outline: thin;
+  background: white;
+  padding-left: 45px;
+}
+.form-container .form-input span{
+  position: absolute;
+  top: 8px;
+  padding-left: 20px;
+  color: #777;
+}
+.form-container .form-input input::placeholder{
+  padding-left: 0px;
+}
+.form-container .form-input input:focus,
+.form-container .form-input input:valid{
+  border-bottom: 2px solid #dc3545;
+}
+.form-container button[type="submit"]{
+ border: none;
+ cursor: pointer;
+ width: 170px;
+ height: 40px;
+ border-radius: 5px;
+ font-weight: bold;
+ transition: 0.5s;
+ background-color: #d52b1e;
+ color: #fff;
+}
+.form-container .btn-login:hover{
+    background: #AFAFAF;
+}

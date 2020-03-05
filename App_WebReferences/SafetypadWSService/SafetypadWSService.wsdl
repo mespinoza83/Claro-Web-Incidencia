@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.safetypad.xolo.com.ni/" name="SafetypadWSService" targetNamespace="http://ws.safetypad.xolo.com.ni/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://10.108.113.88:9080/wsseguridad/SafetypadWS?xsd=1" namespace="http://ws.safetypad.xolo.com.ni/" />
+    </xsd:schema>
+  </types>
+  <message name="Authenticate">
+    <part name="parameters" element="tns:Authenticate" />
+  </message>
+  <message name="AuthenticateResponse">
+    <part name="parameters" element="tns:AuthenticateResponse" />
+  </message>
+  <message name="GetApplications">
+    <part name="parameters" element="tns:GetApplications" />
+  </message>
+  <message name="GetApplicationsResponse">
+    <part name="parameters" element="tns:GetApplicationsResponse" />
+  </message>
+  <message name="GetApplicationsByType">
+    <part name="parameters" element="tns:GetApplicationsByType" />
+  </message>
+  <message name="GetApplicationsByTypeResponse">
+    <part name="parameters" element="tns:GetApplicationsByTypeResponse" />
+  </message>
+  <message name="GetLoginPath">
+    <part name="parameters" element="tns:GetLoginPath" />
+  </message>
+  <message name="GetLoginPathResponse">
+    <part name="parameters" element="tns:GetLoginPathResponse" />
+  </message>
+  <message name="IsAppBlocked">
+    <part name="parameters" element="tns:IsAppBlocked" />
+  </message>
+  <message name="IsAppBlockedResponse">
+    <part name="parameters" element="tns:IsAppBlockedResponse" />
+  </message>
+  <message name="GetUser">
+    <part name="parameters" element="tns:GetUser" />
+  </message>
+  <message name="GetUserResponse">
+    <part name="parameters" element="tns:GetUserResponse" />
+  </message>
+  <message name="HasPermission">
+    <part name="parameters" element="tns:HasPermission" />
+  </message>
+  <message name="HasPermissionResponse">
+    <part name="parameters" element="tns:HasPermissionResponse" />
+  </message>
+  <message name="InitSession">
+    <part name="parameters" element="tns:InitSession" />
+  </message>
+  <message name="InitSessionResponse">
+    <part name="parameters" element="tns:InitSessionResponse" />
+  </message>
+  <message name="ResetPass">
+    <part name="parameters" element="tns:ResetPass" />
+  </message>
+  <message name="ResetPassResponse">
+    <part name="parameters" element="tns:ResetPassResponse" />
+  </message>
+  <message name="GetHomePage">
+    <part name="parameters" element="tns:GetHomePage" />
+  </message>
+  <message name="GetHomePageResponse">
+    <part name="parameters" element="tns:GetHomePageResponse" />
+  </message>
+  <message name="SendRequestToHelpDesk">
+    <part name="parameters" element="tns:SendRequestToHelpDesk" />
+  </message>
+  <message name="SendRequestToHelpDeskResponse">
+    <part name="parameters" element="tns:SendRequestToHelpDeskResponse" />
+  </message>
+  <message name="GetMenu">
+    <part name="parameters" element="tns:GetMenu" />
+  </message>
+  <message name="GetMenuResponse">
+    <part name="parameters" element="tns:GetMenuResponse" />
+  </message>
+  <message name="RegistreException">
+    <part name="parameters" element="tns:RegistreException" />
+  </message>
+  <message name="RegistreExceptionResponse">
+    <part name="parameters" element="tns:RegistreExceptionResponse" />
+  </message>
+  <message name="GetExceptionsList">
+    <part name="parameters" element="tns:GetExceptionsList" />
+  </message>
+  <message name="GetExceptionsListResponse">
+    <part name="parameters" element="tns:GetExceptionsListResponse" />
+  </message>
+  <message name="RegistreAuditTrailEntry">
+    <part name="parameters" element="tns:RegistreAuditTrailEntry" />
+  </message>
+  <message name="RegistreAuditTrailEntryResponse">
+    <part name="parameters" element="tns:RegistreAuditTrailEntryResponse" />
+  </message>
+  <message name="RegistreAuditTrailEntryByResource">
+    <part name="parameters" element="tns:RegistreAuditTrailEntryByResource" />
+  </message>
+  <message name="RegistreAuditTrailEntryByResourceResponse">
+    <part name="parameters" element="tns:RegistreAuditTrailEntryByResourceResponse" />
+  </message>
+  <message name="TerminateSession">
+    <part name="parameters" element="tns:TerminateSession" />
+  </message>
+  <message name="TerminateSessionResponse">
+    <part name="parameters" element="tns:TerminateSessionResponse" />
+  </message>
+  <message name="TerminateSessionByApp">
+    <part name="parameters" element="tns:TerminateSessionByApp" />
+  </message>
+  <message name="TerminateSessionByAppResponse">
+    <part name="parameters" element="tns:TerminateSessionByAppResponse" />
+  </message>
+  <message name="UpdateSession">
+    <part name="parameters" element="tns:UpdateSession" />
+  </message>
+  <message name="UpdateSessionResponse">
+    <part name="parameters" element="tns:UpdateSessionResponse" />
+  </message>
+  <message name="GetVerticalMenu">
+    <part name="parameters" element="tns:GetVerticalMenu" />
+  </message>
+  <message name="GetVerticalMenuResponse">
+    <part name="parameters" element="tns:GetVerticalMenuResponse" />
+  </message>
+  <message name="GetHorizontalMenu">
+    <part name="parameters" element="tns:GetHorizontalMenu" />
+  </message>
+  <message name="GetHorizontalMenuResponse">
+    <part name="parameters" element="tns:GetHorizontalMenuResponse" />
+  </message>
+  <message name="GetParameter">
+    <part name="parameters" element="tns:GetParameter" />
+  </message>
+  <message name="GetParameterResponse">
+    <part name="parameters" element="tns:GetParameterResponse" />
+  </message>
+  <message name="GetGlobalParameter">
+    <part name="parameters" element="tns:GetGlobalParameter" />
+  </message>
+  <message name="GetGlobalParameterResponse">
+    <part name="parameters" element="tns:GetGlobalParameterResponse" />
+  </message>
+  <message name="GetNextSequenceValue">
+    <part name="parameters" element="tns:GetNextSequenceValue" />
+  </message>
+  <message name="GetNextSequenceValueResponse">
+    <part name="parameters" element="tns:GetNextSequenceValueResponse" />
+  </message>
+  <message name="GetRols">
+    <part name="parameters" element="tns:GetRols" />
+  </message>
+  <message name="GetRolsResponse">
+    <part name="parameters" element="tns:GetRolsResponse" />
+  </message>
+  <message name="GetDomainValue">
+    <part name="parameters" element="tns:GetDomainValue" />
+  </message>
+  <message name="GetDomainValueResponse">
+    <part name="parameters" element="tns:GetDomainValueResponse" />
+  </message>
+  <message name="GetDomainValues">
+    <part name="parameters" element="tns:GetDomainValues" />
+  </message>
+  <message name="GetDomainValuesResponse">
+    <part name="parameters" element="tns:GetDomainValuesResponse" />
+  </message>
+  <message name="GetOptionInfoFromResource">
+    <part name="parameters" element="tns:GetOptionInfoFromResource" />
+  </message>
+  <message name="GetOptionInfoFromResourceResponse">
+    <part name="parameters" element="tns:GetOptionInfoFromResourceResponse" />
+  </message>
+  <message name="GetHelpOfResource">
+    <part name="parameters" element="tns:GetHelpOfResource" />
+  </message>
+  <message name="GetHelpOfResourceResponse">
+    <part name="parameters" element="tns:GetHelpOfResourceResponse" />
+  </message>
+  <message name="GetHelpOfResourceByAppCode">
+    <part name="parameters" element="tns:GetHelpOfResourceByAppCode" />
+  </message>
+  <message name="GetHelpOfResourceByAppCodeResponse">
+    <part name="parameters" element="tns:GetHelpOfResourceByAppCodeResponse" />
+  </message>
+  <message name="GetMessage">
+    <part name="parameters" element="tns:GetMessage" />
+  </message>
+  <message name="GetMessageResponse">
+    <part name="parameters" element="tns:GetMessageResponse" />
+  </message>
+  <message name="GetCurrentSequenceValue">
+    <part name="parameters" element="tns:GetCurrentSequenceValue" />
+  </message>
+  <message name="GetCurrentSequenceValueResponse">
+    <part name="parameters" element="tns:GetCurrentSequenceValueResponse" />
+  </message>
+  <message name="GetMapSite">
+    <part name="parameters" element="tns:GetMapSite" />
+  </message>
+  <message name="GetMapSiteResponse">
+    <part name="parameters" element="tns:GetMapSiteResponse" />
+  </message>
+  <message name="GetUserSessionDetails">
+    <part name="parameters" element="tns:GetUserSessionDetails" />
+  </message>
+  <message name="GetUserSessionDetailsResponse">
+    <part name="parameters" element="tns:GetUserSessionDetailsResponse" />
+  </message>
+  <message name="ChangePassword">
+    <part name="parameters" element="tns:ChangePassword" />
+  </message>
+  <message name="ChangePasswordResponse">
+    <part name="parameters" element="tns:ChangePasswordResponse" />
+  </message>
+  <message name="TerminatePastSessions">
+    <part name="parameters" element="tns:TerminatePastSessions" />
+  </message>
+  <message name="TerminatePastSessionsResponse">
+    <part name="parameters" element="tns:TerminatePastSessionsResponse" />
+  </message>
+  <message name="GetActions">
+    <part name="parameters" element="tns:GetActions" />
+  </message>
+  <message name="GetActionsResponse">
+    <part name="parameters" element="tns:GetActionsResponse" />
+  </message>
+  <message name="IsActionAllowed">
+    <part name="parameters" element="tns:IsActionAllowed" />
+  </message>
+  <message name="IsActionAllowedResponse">
+    <part name="parameters" element="tns:IsActionAllowedResponse" />
+  </message>
+  <message name="GetApplicationInfo">
+    <part name="parameters" element="tns:GetApplicationInfo" />
+  </message>
+  <message name="GetApplicationInfoResponse">
+    <part name="parameters" element="tns:GetApplicationInfoResponse" />
+  </message>
+  <message name="GetAccount">
+    <part name="parameters" element="tns:GetAccount" />
+  </message>
+  <message name="GetAccountResponse">
+    <part name="parameters" element="tns:GetAccountResponse" />
+  </message>
+  <portType name="SafetypadWS">
+    <operation name="Authenticate">
+      <input message="tns:Authenticate" />
+      <output message="tns:AuthenticateResponse" />
+    </operation>
+    <operation name="GetApplications">
+      <input message="tns:GetApplications" />
+      <output message="tns:GetApplicationsResponse" />
+    </operation>
+    <operation name="GetApplicationsByType">
+      <input message="tns:GetApplicationsByType" />
+      <output message="tns:GetApplicationsByTypeResponse" />
+    </operation>
+    <operation name="GetLoginPath">
+      <input message="tns:GetLoginPath" />
+      <output message="tns:GetLoginPathResponse" />
+    </operation>
+    <operation name="IsAppBlocked">
+      <input message="tns:IsAppBlocked" />
+      <output message="tns:IsAppBlockedResponse" />
+    </operation>
+    <operation name="GetUser">
+      <input message="tns:GetUser" />
+      <output message="tns:GetUserResponse" />
+    </operation>
+    <operation name="HasPermission">
+      <input message="tns:HasPermission" />
+      <output message="tns:HasPermissionResponse" />
+    </operation>
+    <operation name="InitSession">
+      <input message="tns:InitSession" />
+      <output message="tns:InitSessionResponse" />
+    </operation>
+    <operation name="ResetPass">
+      <input message="tns:ResetPass" />
+      <output message="tns:ResetPassResponse" />
+    </operation>
+    <operation name="GetHomePage">
+      <input message="tns:GetHomePage" />
+      <output message="tns:GetHomePageResponse" />
+    </operation>
+    <operation name="SendRequestToHelpDesk">
+      <input message="tns:SendRequestToHelpDesk" />
+      <output message="tns:SendRequestToHelpDeskResponse" />
+    </operation>
+    <operation name="GetMenu">
+      <input message="tns:GetMenu" />
+      <output message="tns:GetMenuResponse" />
+    </operation>
+    <operation name="RegistreException">
+      <input message="tns:RegistreException" />
+      <output message="tns:RegistreExceptionResponse" />
+    </operation>
+    <operation name="GetExceptionsList">
+      <input message="tns:GetExceptionsList" />
+      <output message="tns:GetExceptionsListResponse" />
+    </operation>
+    <operation name="RegistreAuditTrailEntry">
+      <input message="tns:RegistreAuditTrailEntry" />
+      <output message="tns:RegistreAuditTrailEntryResponse" />
+    </operation>
+    <operation name="RegistreAuditTrailEntryByResource">
+      <input message="tns:RegistreAuditTrailEntryByResource" />
+      <output message="tns:RegistreAuditTrailEntryByResourceResponse" />
+    </operation>
+    <operation name="TerminateSession">
+      <input message="tns:TerminateSession" />
+      <output message="tns:TerminateSessionResponse" />
+    </operation>
+    <operation name="TerminateSessionByApp">
+      <input message="tns:TerminateSessionByApp" />
+      <output message="tns:TerminateSessionByAppResponse" />
+    </operation>
+    <operation name="UpdateSession">
+      <input message="tns:UpdateSession" />
+      <output message="tns:UpdateSessionResponse" />
+    </operation>
+    <operation name="GetVerticalMenu">
+      <input message="tns:GetVerticalMenu" />
+      <output message="tns:GetVerticalMenuResponse" />
+    </operation>
+    <operation name="GetHorizontalMenu">
+      <input message="tns:GetHorizontalMenu" />
+      <output message="tns:GetHorizontalMenuResponse" />
+    </operation>
+    <operation name="GetParameter">
+      <input message="tns:GetParameter" />
+      <output message="tns:GetParameterResponse" />
+    </operation>
+    <operation name="GetGlobalParameter">
+      <input message="tns:GetGlobalParameter" />
+      <output message="tns:GetGlobalParameterResponse" />
+    </operation>
+    <operation name="GetNextSequenceValue">
+      <input message="tns:GetNextSequenceValue" />
+      <output message="tns:GetNextSequenceValueResponse" />
+    </operation>
+    <operation name="GetRols">
+      <input message="tns:GetRols" />
+      <output message="tns:GetRolsResponse" />
+    </operation>
+    <operation name="GetDomainValue">
+      <input message="tns:GetDomainValue" />
+      <output message="tns:GetDomainValueResponse" />
+    </operation>
+    <operation name="GetDomainValues">
+      <input message="tns:GetDomainValues" />
+      <output message="tns:GetDomainValuesResponse" />
+    </operation>
+    <operation name="GetOptionInfoFromResource">
+      <input message="tns:GetOptionInfoFromResource" />
+      <output message="tns:GetOptionInfoFromResourceResponse" />
+    </operation>
+    <operation name="GetHelpOfResource">
+      <input message="tns:GetHelpOfResource" />
+      <output message="tns:GetHelpOfResourceResponse" />
+    </operation>
+    <operation name="GetHelpOfResourceByAppCode">
+      <input message="tns:GetHelpOfResourceByAppCode" />
+      <output message="tns:GetHelpOfResourceByAppCodeResponse" />
+    </operation>
+    <operation name="GetMessage">
+      <input message="tns:GetMessage" />
+      <output message="tns:GetMessageResponse" />
+    </operation>
+    <operation name="GetCurrentSequenceValue">
+      <input message="tns:GetCurrentSequenceValue" />
+      <output message="tns:GetCurrentSequenceValueResponse" />
+    </operation>
+    <operation name="GetMapSite">
+      <input message="tns:GetMapSite" />
+      <output message="tns:GetMapSiteResponse" />
+    </operation>
+    <operation name="GetUserSessionDetails">
+      <input message="tns:GetUserSessionDetails" />
+      <output message="tns:GetUserSessionDetailsResponse" />
+    </operation>
+    <operation name="ChangePassword">
+      <input message="tns:ChangePassword" />
+      <output message="tns:ChangePasswordResponse" />
+    </operation>
+    <operation name="TerminatePastSessions">
+      <input message="tns:TerminatePastSessions" />
+      <output message="tns:TerminatePastSessionsResponse" />
+    </operation>
+    <operation name="GetActions">
+      <input message="tns:GetActions" />
+      <output message="tns:GetActionsResponse" />
+    </operation>
+    <operation name="IsActionAllowed">
+      <input message="tns:IsActionAllowed" />
+      <output message="tns:IsActionAllowedResponse" />
+    </operation>
+    <operation name="GetApplicationInfo">
+      <input message="tns:GetApplicationInfo" />
+      <output message="tns:GetApplicationInfoResponse" />
+    </operation>
+    <operation name="GetAccount">
+      <input message="tns:GetAccount" />
+      <output message="tns:GetAccountResponse" />
+    </operation>
+  </portType>
+  <binding name="SafetypadWSPortBinding" type="tns:SafetypadWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="Authenticate">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetApplications">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetApplicationsByType">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetLoginPath">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="IsAppBlocked">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetUser">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="HasPermission">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="InitSession">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ResetPass">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetHomePage">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SendRequestToHelpDesk">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetMenu">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RegistreException">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetExceptionsList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RegistreAuditTrailEntry">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RegistreAuditTrailEntryByResource">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="TerminateSession">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="TerminateSessionByApp">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="UpdateSession">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetVerticalMenu">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetHorizontalMenu">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetParameter">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetGlobalParameter">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNextSequenceValue">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetRols">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDomainValue">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDomainValues">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetOptionInfoFromResource">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetHelpOfResource">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetHelpOfResourceByAppCode">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetMessage">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetCurrentSequenceValue">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetMapSite">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetUserSessionDetails">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ChangePassword">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="TerminatePastSessions">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetActions">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="IsActionAllowed">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetApplicationInfo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetAccount">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="SafetypadWSService">
+    <port name="SafetypadWSPort" binding="tns:SafetypadWSPortBinding">
+      <soap:address location="http://10.108.113.88:9080/wsseguridad/SafetypadWS" />
+    </port>
+  </service>
+</definitions>

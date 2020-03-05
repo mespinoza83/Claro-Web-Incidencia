@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+safetypad-ws.helpers
+</name>
+</assembly>
+<members>
+<member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Actions.Actions">
+	<summary>
+Gets or sets the value of Actions.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.EstadoAplicacion.#ctor">
+	<summary>
+Default constructor of EstadoAplicacion.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.EstadoAplicacion.Estado">
+	<summary>
+Gets or sets the value of Estado.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Dominio.#ctor">
+	<summary>
+Default constructor of Dominio.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Dominio.Valores">
+	<summary>
+Gets or sets the value of Valores.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.PermisoRecurso.#ctor">
+	<summary>
+Default constructor of PermisoRecurso.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.PermisoRecurso.Permiso">
+	<summary>
+Gets or sets the value of Permiso.
+</summary>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Parameter.#ctor">
+	<summary>
+Default constructor of Parameter.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Parameter.Nombre">
+	<summary>
+Gets or sets the value of Nombre.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Parameter.Descripcion">
+	<summary>
+Gets or sets the value of Descripcion.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Parameter.Valor">
+	<summary>
+Gets or sets the value of Valor.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Parameter.Reservado">
+	<summary>
+Gets or sets the value of Reservado.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.LoginPath.#ctor">
+	<summary>
+Default constructor of LoginPath.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.LoginPath.Path">
+	<summary>
+Gets or sets the value of Path.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.#ctor">
+	<summary>
+Default constructor of UserSession.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.Message">
+	<summary>
+Gets or sets the value of Message.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.Login">
+	<summary>
+Gets or sets the value of Login.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.Jsession">
+	<summary>
+Gets or sets the value of Jsession.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.Location">
+	<summary>
+Gets or sets the value of Location.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.DateLogin">
+	<summary>
+Gets or sets the value of DateLogin.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.DateLoginAsString">
+	<summary>
+Gets or sets the value of DateLogin.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.AppInstance">
+	<summary>
+Gets or sets the value of AppInstance.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.Advertencia">
+	<summary>
+Gets or sets the value of Advertencia.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.FechaAdvertencia">
+	<summary>
+Gets or sets the value of FechaAdvertencia.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.FechaAdvertenciaAsString">
+	<summary>
+Gets or sets the value of FechaAdvertencia.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSession.Estado">
+	<summary>
+Gets or sets the value of Estado.
+</summary>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.#ctor">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.AuthenticateCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetApplicationsCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetLoginPathCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.IsAppBlockedCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetUserCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.HasPermissionCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.InitSessionCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.ResetPassCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetHomePageCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.SendRequestToHelpDeskCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetMenuCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.RegistreExceptionCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetExceptionsListCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntryCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntryByResourceCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.TerminateSessionCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.TerminateSessionByAppCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.UpdateSessionCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetVerticalMenuCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetHorizontalMenuCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetParameterCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetGlobalParameterCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetNextSequenceValueCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetRolsCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetDomainValueCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetDomainValuesCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetOptionInfoFromResourceCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetHelpOfResourceCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetHelpOfResourceByAppCodeCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetMessageCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetCurrentSequenceValueCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetMapSiteCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetUserSessionDetailsCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.ChangePasswordCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.TerminatePastSessionsCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetActionsCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.IsActionAllowedCompleted">
+	<remarks/>
+</member><member name="E:SafetypadWSInterface.SafetypadWSService.GetApplicationInfoCompleted">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.Authenticate(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.AuthenticateAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.AuthenticateAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetApplications(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetApplicationsAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetApplicationsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetLoginPath">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetLoginPathAsync">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetLoginPathAsync(System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.IsAppBlocked(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.IsAppBlockedAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.IsAppBlockedAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetUser(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetUserAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetUserAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.HasPermission(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.HasPermissionAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.HasPermissionAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.InitSession(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.InitSessionAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.InitSessionAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.ResetPass(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.ResetPassAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.ResetPassAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHomePage(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHomePageAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHomePageAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.SendRequestToHelpDesk(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.SendRequestToHelpDeskAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.SendRequestToHelpDeskAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMenu(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMenuAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMenuAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreException(System.String,System.String,System.String,System.DateTime,System.Boolean,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreExceptionAsync(System.String,System.String,System.String,System.DateTime,System.Boolean,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreExceptionAsync(System.String,System.String,System.String,System.DateTime,System.Boolean,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetExceptionsList(System.String,System.DateTime,System.Boolean,System.DateTime,System.Boolean,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetExceptionsListAsync(System.String,System.DateTime,System.Boolean,System.DateTime,System.Boolean,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetExceptionsListAsync(System.String,System.DateTime,System.Boolean,System.DateTime,System.Boolean,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntry(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntryAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntryAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntryByResource(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntryByResourceAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.RegistreAuditTrailEntryByResourceAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminateSession(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminateSessionAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminateSessionAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminateSessionByApp(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminateSessionByAppAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminateSessionByAppAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.UpdateSession(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.UpdateSessionAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.UpdateSessionAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetVerticalMenu(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetVerticalMenuAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetVerticalMenuAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHorizontalMenu(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHorizontalMenuAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHorizontalMenuAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetParameter(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetParameterAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetParameterAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetGlobalParameter(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetGlobalParameterAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetGlobalParameterAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetNextSequenceValue(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetNextSequenceValueAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetNextSequenceValueAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetRols(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetRolsAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetRolsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetDomainValue(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetDomainValueAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetDomainValueAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetDomainValues(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetDomainValuesAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetDomainValuesAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetOptionInfoFromResource(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetOptionInfoFromResourceAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetOptionInfoFromResourceAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHelpOfResource(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHelpOfResourceAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHelpOfResourceAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHelpOfResourceByAppCode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHelpOfResourceByAppCodeAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetHelpOfResourceByAppCodeAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMessage(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMessageAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMessageAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetCurrentSequenceValue(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetCurrentSequenceValueAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetCurrentSequenceValueAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMapSite(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMapSiteAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetMapSiteAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetUserSessionDetails(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetUserSessionDetailsAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetUserSessionDetailsAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.ChangePassword(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.ChangePasswordAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.ChangePasswordAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminatePastSessions(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminatePastSessionsAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.TerminatePastSessionsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetActions(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetActionsAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetActionsAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.IsActionAllowed(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.IsActionAllowedAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.IsActionAllowedAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetApplicationInfo(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetApplicationInfoAsync(System.String)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.GetApplicationInfoAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SafetypadWSInterface.SafetypadWSService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.SafetypadWSService">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.AuthenticateCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.AuthenticateCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.AuthenticateCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetApplicationsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetApplicationsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetApplicationsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetLoginPathCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetLoginPathCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetLoginPathCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.IsAppBlockedCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.IsAppBlockedCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.IsAppBlockedCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetUserCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetUserCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetUserCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.HasPermissionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.HasPermissionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.HasPermissionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.InitSessionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.InitSessionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.InitSessionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.ResetPassCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.ResetPassCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.ResetPassCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHomePageCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetHomePageCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHomePageCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.SendRequestToHelpDeskCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.SendRequestToHelpDeskCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.SendRequestToHelpDeskCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetMenuCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetMenuCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetMenuCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.RegistreExceptionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.RegistreExceptionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.RegistreExceptionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetExceptionsListCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetExceptionsListCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetExceptionsListCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.RegistreAuditTrailEntryCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.RegistreAuditTrailEntryCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.RegistreAuditTrailEntryCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.RegistreAuditTrailEntryByResourceCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.RegistreAuditTrailEntryByResourceCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.RegistreAuditTrailEntryByResourceCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.TerminateSessionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.TerminateSessionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.TerminateSessionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.TerminateSessionByAppCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.TerminateSessionByAppCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.TerminateSessionByAppCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.UpdateSessionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.UpdateSessionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.UpdateSessionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetVerticalMenuCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetVerticalMenuCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetVerticalMenuCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHorizontalMenuCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetHorizontalMenuCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHorizontalMenuCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetParameterCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetParameterCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetParameterCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetGlobalParameterCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetGlobalParameterCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetGlobalParameterCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetNextSequenceValueCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetNextSequenceValueCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetNextSequenceValueCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetRolsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetRolsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetRolsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetDomainValueCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetDomainValueCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetDomainValueCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetDomainValuesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetDomainValuesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetDomainValuesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetOptionInfoFromResourceCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetOptionInfoFromResourceCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetOptionInfoFromResourceCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHelpOfResourceCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetHelpOfResourceCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHelpOfResourceCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHelpOfResourceByAppCodeCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetHelpOfResourceByAppCodeCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetHelpOfResourceByAppCodeCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetMessageCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetMessageCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetMessageCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetCurrentSequenceValueCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetCurrentSequenceValueCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetCurrentSequenceValueCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetMapSiteCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetMapSiteCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetMapSiteCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetUserSessionDetailsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetUserSessionDetailsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetUserSessionDetailsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.ChangePasswordCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.ChangePasswordCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.ChangePasswordCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.TerminatePastSessionsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.TerminatePastSessionsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.TerminatePastSessionsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetActionsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetActionsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetActionsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.IsActionAllowedCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.IsActionAllowedCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.IsActionAllowedCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetApplicationInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SafetypadWSInterface.GetApplicationInfoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SafetypadWSInterface.GetApplicationInfoCompletedEventArgs">
+	<remarks/>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mEstado">
+	<summary>
+ Atributo propio de Safetypad
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mMensaje">
+	<summary>
+ Mensaje que se envia cuando algo ocurrio de manera inesperada
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mStatus">
+	<summary>
+ Estado de la operacion
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mLoginPath">
+	<summary>
+ Ruta de la aplicacion de autenticacion
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mUserSessionDetails">
+	<summary>
+ Contenedor de detalle del usuario en sesion
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mAplicaciones">
+	<summary>
+ Listado de aplicaciones a las cuales puede acceder el usuario
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mEstadoAplicacion">
+	<summary>
+ Estado de la aplicacion.
+ Se verifica para ver si se deberia acceder o no.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mMessage">
+	<summary>
+ Mensaje que se debe mostrar al usuario
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mPermisoRecurso">
+	<summary>
+ Permiso que el usuario tiene sobre determinado recurso
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mSiteMap">
+	<summary>
+ Sitemap del recurso
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mSecuencia">
+	<summary>
+ Secuencia
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mUserSession">
+	<summary>
+ Sesion del usuario
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mParameter">
+	<summary>
+ Parametro
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mAplicacion">
+	<summary>
+ Aplicacion
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mOpcion">
+	<summary>
+ Opcion del sistema
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mDominioValor">
+	<summary>
+ Valor de un dominio
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mDominioValores">
+	<summary>
+ Valores de un dominio
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.mAcciones">
+	<summary>
+ Acciones permitidas dentro del recurso
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Estado">
+	<summary>
+Gets or sets the value of Estado.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Mensaje">
+	<summary>
+Gets or sets the value of Mensaje.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.EstadoAplicacion">
+	<summary>
+ Estado de la aplicacion.
+ Se verifica para ver si se deberia acceder o no.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Message">
+	<summary>
+ Mensaje que se debe mostrar al usuario
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.PermisoRecurso">
+	<summary>
+ Permiso que el usuario tiene sobre determinado recurso
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.SiteMap">
+	<summary>
+ Sitemap del recurso
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.UserSession">
+	<summary>
+ Sesion del usuario
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Parameter">
+	<summary>
+ Parametro
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Aplicacion">
+	<summary>
+ Aplicacion
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Opcion">
+	<summary>
+ Opcion del sistema
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.DominioValor">
+	<summary>
+ Valor de un dominio
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.DominioValores">
+	<summary>
+ Valores de un dominio
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Secuencia">
+	<summary>
+ Secuencia
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Safetypad.Acciones">
+	<summary>
+Gets or sets the value of Acciones.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Aplicaciones.#ctor">
+	<summary>
+Default constructor of Aplicaciones.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Message.#ctor">
+	<summary>
+Default constructor of Message.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Message.OptionCode">
+	<summary>
+Gets or sets the value of OptionCode.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Message.OptionName">
+	<summary>
+Gets or sets the value of OptionName.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Message.Message">
+	<summary>
+Gets or sets the value of Message.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.SiteMap.#ctor">
+	<summary>
+Default constructor of SiteMap.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.SiteMap.OptionCode">
+	<summary>
+Gets or sets the value of OptionCode.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.SiteMap.OptionName">
+	<summary>
+Gets or sets the value of OptionName.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.SiteMap.Sitemap">
+	<summary>
+Gets or sets the value of Sitemap.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSessionDetails.#ctor">
+	<summary>
+Default constructor of UserSessionDetails.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSessionDetails.UserName">
+	<summary>
+Gets or sets the value of UserName.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSessionDetails.LastLoginDate">
+	<summary>
+Gets or sets the value of LastLoginDate.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSessionDetails.LastLoginIp">
+	<summary>
+Gets or sets the value of LastLoginIp.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSessionDetails.TotalActiveSessions">
+	<summary>
+Gets or sets the value of TotalActiveSessions.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.UserSessionDetails.TotalLoginFailed">
+	<summary>
+Gets or sets the value of TotalLoginFailed.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.DominioValor.#ctor">
+	<summary>
+Default constructor of DominioValor.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.DominioValor.CodigoValor">
+	<summary>
+Gets or sets the value of CodigoValor.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.DominioValor.Nombre">
+	<summary>
+Gets or sets the value of Nombre.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.DominioValor.Activo">
+	<summary>
+Gets or sets the value of Activo.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.DominioValor.Reservado">
+	<summary>
+Gets or sets the value of Reservado.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.DominioValor.Descripcion">
+	<summary>
+Gets or sets the value of Descripcion.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Aplicacion.#ctor">
+	<summary>
+Default constructor of Aplicacion.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Aplicacion.CodigoAplicacion">
+	<summary>
+Gets or sets the value of CodigoAplicacion.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Aplicacion.Nombre">
+	<summary>
+Gets or sets the value of Nombre.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Aplicacion.UrlDespliegue">
+	<summary>
+Gets or sets the value of UrlDespliegue.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Aplicacion.Descripcion">
+	<summary>
+Gets or sets the value of Descripcion.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.#ctor">
+	<summary>
+Default constructor of Opcion.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.CodigoOpcion">
+	<summary>
+Gets or sets the value of CodigoOpcion.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.Nombre">
+	<summary>
+Gets or sets the value of Nombre.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.Descripcion">
+	<summary>
+Gets or sets the value of Descripcion.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.InstruccionCodigo">
+	<summary>
+Gets or sets the value of InstruccionCodigo.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.Orden">
+	<summary>
+Gets or sets the value of Orden.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.OpcionPadre">
+	<summary>
+Gets or sets the value of OpcionPadre.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.AltoImagen">
+	<summary>
+Gets or sets the value of AltoImagen.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.AnchoImagen">
+	<summary>
+Gets or sets the value of AnchoImagen.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.ImagenUrl">
+	<summary>
+Gets or sets the value of ImagenUrl.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.Presentable">
+	<summary>
+Gets or sets the value of Presentable.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Opcion.ObjetoHtml">
+	<summary>
+Gets or sets the value of ObjetoHtml.
+</summary>
+</member><member name="M:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Status.#ctor">
+	<summary>
+Default constructor of Status.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Status.Status">
+	<summary>
+Gets or sets the value of Status.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Status.StatusMensaje">
+	<summary>
+Gets or sets the value of StatusMensaje.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Action.Codigo">
+	<summary>
+Gets or sets the value of Codigo.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Action.Nombre">
+	<summary>
+Gets or sets the value of Nombre.
+</summary>
+</member><member name="P:Ni.Com.Xolo.Safetypad.Ws.Wrappers.Action.Descripcion">
+	<summary>
+Gets or sets the value of Descripcion.
+</summary>
+</member>
+</members>
+</doc>

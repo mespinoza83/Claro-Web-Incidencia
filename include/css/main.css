@@ -1,0 +1,163 @@
+BODY {
+	BACKGROUND-COLOR: #d7e4ea; MARGIN: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 0.7em
+}
+#cabecera {
+	WIDTH: 100%; BACKGROUND: url("../imagenes/fondo_cabecera.gif") #fff repeat-x left top; HEIGHT: 116px
+}
+#contenedor_cabecera {
+	MARGIN: auto; WIDTH: 980px
+}
+#espacio_logo {
+	WIDTH: 100%; FLOAT: left; HEIGHT: 116px
+}
+#cierre_cabecera {
+	WIDTH: 860px; FLOAT: right; HEIGHT: 50px
+}
+#cabecera_sistema {
+	WIDTH: auto; FLOAT: left; HEIGHT: 30px; PADDING-TOP: 10px
+}
+#cabecera_usuario {
+	TEXT-ALIGN: right; WIDTH: auto; FLOAT: right; HEIGHT: 40px; PADDING-TOP: 6px; font-size:11px;
+}
+#cabecera_usuario STRONG {
+	COLOR: #e86d2c;
+}
+#cabecera_usuario EM {
+	FONT-STYLE: normal; COLOR: #005d7f;
+}
+#cabecera_menu {
+	WIDTH: 880px; FLOAT: left; HEIGHT: 28px; PADDING-TOP: 18px
+}
+#logo {
+	WIDTH: auto; FLOAT: left; HEIGHT: 120px; PADDING-TOP: 0px
+}
+#wrapper {
+    background-color: #fff;
+    width: 100%;
+}
+#menu_horizontal {
+	WIDTH: 880px;
+	FLOAT: left;
+	HEIGHT: 28px;
+	PADDING-TOP: 18px
+}
+.column_left {
+	width:20%;
+	border-right: 1px solid #cedfea;
+}
+.column_right {
+	width:79%;
+	padding-left:1%;
+}
+#contenedor_contenido {
+	BACKGROUND-COLOR: #fff; WIDTH: 100%
+}
+#contenido {
+	BACKGROUND-COLOR: #fff; MARGIN: auto; MIN-HEIGHT: 430px; WIDTH: 980px
+}
+#contenedor_pie {
+	BACKGROUND-COLOR: #d7e4ea; WIDTH: 100%; HEIGHT: 44px; BORDER-TOP: #ccc 1px solid; PADDING-TOP: 6px; text-align:center;
+}
+.pie {
+	POSITION: relative; PADDING: 0px; WIDTH: 0%; margin:auto; FONT: 10px/13px Verdana, Arial, Helvetica, sans-serif; COLOR: #999999; TEXT-DECORATION: none;
+}
+.pie A {
+	FONT: 10px/13px Verdana, Arial, Helvetica, sans-serif; COLOR: #999999; TEXT-DECORATION: none
+}
+.pie A:hover {
+	FONT: 10px/13px Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; TEXT-DECORATION: underline
+}
+#login {
+	MARGIN: auto; WIDTH: 437px; PADDING-TOP: 8px
+}
+#login .login_content {
+	BACKGROUND: url("../imagenes/bg_login.gif") #fff repeat-y 20% 50%
+}
+#login .login_lock {
+	BACKGROUND: url("../imagenes/bg_login_lock.gif") no-repeat 6% 10%
+}
+#login .up {
+	PADDING-BOTTOM: 8px; WIDTH: 100%; BACKGROUND: url("../imagenes/bg_login_up.gif") #fff no-repeat 0% 50%; HEIGHT: 27px
+}
+#login .bottom {
+	WIDTH: 100%; BACKGROUND: url("../imagenes/bg_login_bottom.gif") #fff no-repeat; HEIGHT: 40px
+}
+#login .fields INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-LEFT: 10px; WIDTH: 229px; PADDING-RIGHT: 10px; BACKGROUND: url("../imagenes/bg_input_login.gif") no-repeat 0% 50%; HEIGHT: 26px; FONT-SIZE: 12px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 8px
+}
+.btn {
+	POSITION: relative; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: #aaa; FLOAT: left; COLOR: #fff; CURSOR: pointer; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.btn * {
+	BACKGROUND-IMAGE: url("../imagenes/btn2.png"); POSITION: relative; FONT-STYLE: normal; DISPLAY: block; BACKGROUND-REPEAT: no-repeat
+}
+.btn I {
+	POSITION: absolute; WIDTH: 5px; BACKGROUND-POSITION: left top; MARGIN-BOTTOM: -5px; HEIGHT: 5px; TOP: 0px; LEFT: 0px
+}
+.btn SPAN {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: left bottom; MARGIN-BOTTOM: -5px; PADDING-TOP: 0px; LEFT: -5px
+}
+.btn SPAN I {
+	POSITION: absolute; WIDTH: 10px; BACKGROUND-POSITION: right bottom; MARGIN-BOTTOM: 0px; HEIGHT: 100%; TOP: 0px; LEFT: 100%
+}
+.btn SPAN SPAN {
+	POSITION: absolute; BACKGROUND-POSITION: right top; HEIGHT: 0px; MARGIN-LEFT: 10px; TOP: -5px; RIGHT: -10px
+}
+* HTML .btn SPAN {
+	BACKGROUND-IMAGE: none; WIDTH: auto; FLOAT: left; CURSOR: pointer
+}
+* HTML .btn I {
+	BACKGROUND-IMAGE: none; WIDTH: auto; FLOAT: left; CURSOR: pointer
+}
+.btn.blue {
+	BACKGROUND: #2ae
+}
+.btn.green {
+	BACKGROUND: #a2cb47
+}
+.btn.pink {
+	BACKGROUND: #e1a
+}
+.btn:hover {
+	BACKGROUND-COLOR: #069
+}
+.btn:active {
+	BACKGROUND-COLOR: #444
+}
+[class].btn {
+	BACKGROUND-IMAGE: url("../imagenes/shade.png"); BACKGROUND-POSITION: 50% bottom
+}
+* HTML .btn {
+	BORDER-BOTTOM: #aaa 3px double; BORDER-LEFT: #aaa 3px double; BORDER-TOP: #aaa 3px double; BORDER-RIGHT: #aaa 3px double
+}
+* HTML .btn.blue {
+	BORDER-BOTTOM-COLOR: #2ae; BORDER-TOP-COLOR: #2ae; BORDER-RIGHT-COLOR: #2ae; BORDER-LEFT-COLOR: #2ae
+}
+* HTML .btn.green {
+	BORDER-BOTTOM-COLOR: #9d4; BORDER-TOP-COLOR: #9d4; BORDER-RIGHT-COLOR: #9d4; BORDER-LEFT-COLOR: #9d4
+}
+* HTML .btn.pink {
+	BORDER-BOTTOM-COLOR: #e1a; BORDER-TOP-COLOR: #e1a; BORDER-RIGHT-COLOR: #e1a; BORDER-LEFT-COLOR: #e1a
+}
+* HTML .btn:hover {
+	BORDER-BOTTOM-COLOR: #a00; BORDER-TOP-COLOR: #a00; BORDER-RIGHT-COLOR: #a00; BORDER-LEFT-COLOR: #a00
+}
+FORM SPAN .btn {
+	MARGIN-RIGHT: 1em
+}
+
+.chkbox
+{
+   color: #000000;
+    border-style: none;
+    text-align: left; /*Estaba en right*/
+    /*margin-left: -100px;*/
+   padding-left: -120px;
+}
+
+.box-check {clear:both;display:inline-block; margin-right:.5em;}
+
+.centerText
+{
+    text-align:center;
+}

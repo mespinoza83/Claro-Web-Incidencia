@@ -1,0 +1,95 @@
+/* 
+    Document   : ayuda
+    Created on : 12-10-2009, 07:58:40 PM
+    Author     : Roberto Cordero
+    Description:
+        Aplicar los estilos a ayuda en linea
+*/
+
+#layerAyuda {
+    position: absolute;
+    visibility: hidden;
+    width: 400px;
+    height: 300px;
+    left: 20px;
+    top: 300px;
+    background-color: #ffa;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+#layerTitle {
+    position: absolute;
+    width: 418px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    background-color: #FF9900;
+    border-bottom: 5px solid #666;
+    padding: 1px;
+}
+
+#layerContent {
+    position: absolute;
+    width: 410px;
+    height: 280px;
+    left:5px;
+    top: 30px;
+    background-color: #ffa;
+    border: 0px solid #bbb;
+    overflow: auto;
+    padding: 0px;
+}
+
+#close {
+    float: right;
+    margin-right: 2px;
+    padding-right: 2px;
+}
+
+/* Tags y clases predefinidas */
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333
+}
+p
+{
+	font-family:Arial, Helvetica, sans-serif
+}
+
+h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#69a0b9;
+}
+
+h2
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#a9c71d;
+}
+
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+h4{
+	font-family:Arial, Helvetica, sans-serif
+}
+
+h5{
+	font-family:Arial, Helvetica, sans-serif
+}
+
+h6{
+	font-family:Arial, Helvetica, sans-serif
+}
+
+.div_dash
+{
+	border-bottom:1px dashed #CCC;
+	height:2px; 
+}

@@ -1,0 +1,92 @@
+#navbar{
+	font-size: 90%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 100%;
+}
+#navbar a{
+	text-decoration:none;
+	color:#065294;
+}
+.collapsible_menu {
+	font-size: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+.collapsible_menu ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.collapsible_menu li {
+	background: #d7e4ea url(../imagenes/bg_menu_collapsible.png) repeat-x 100% 50%;
+	border-left: 1px solid #cedfea;
+	border-bottom: 1px solid #cedfea;
+	border-top: 1px solid #cedfea;
+	width:100%;
+	margin-bottom:1px;
+	padding: 0;
+}
+.collapsible_menu ul ul {
+	display: inline;
+}
+.collapsible_menu ul ul li a {
+	padding-left: 10%;
+	width: 84%;
+}
+
+.collapsible_menu ul ul li a:hover {
+	padding-left: 10%;
+	width: 84%;
+}
+
+.collapsible_menu a {
+	color: #000;
+	cursor: pointer;
+	display: block;
+	font-weight: bold;
+	margin-left: 0;
+	padding: 3% 5% 3% 5%;
+}
+.collapsible_menu a {
+	background: url(../imagenes/expand.gif) no-repeat 94% 50%;
+	border:1px solid #FFF;
+}
+.collapsible_menu a.collapsed {
+	background: url(../imagenes/collapse.gif) no-repeat 94% 50%;
+	border:1px solid #FFF;
+}
+.collapsible_menu a:hover {
+	text-decoration: none;
+}
+.collapsible_menu ul a {
+	background: #e8f0f4;
+	border-top: 1px solid #fff;
+	color: #000;
+	display: block;
+	font-weight: normal;
+	padding: 1.5% 5% 1.5% 5%;
+	width: 90%;
+}
+.collapsible_menu ul li {
+	background : #e8f0f4;
+}
+.collapsible_menu ul a:hover {
+	background : #cedce2;
+	text-decoration: underline;
+}
+.collapsible_menu li.active a {
+	background: #fff;
+}
+.collapsible_menu li.active li a {
+	background: #d7e4ea url(../imagenes/bg_menu_collapsible_active.png) repeat-x 100% 50%; 
+}
+
+.collapsible_menu ul ul li.parent a {
+	background: #f0f5f8 url(../imagenes/bullet_blue.png) no-repeat 3% 10%;
+}

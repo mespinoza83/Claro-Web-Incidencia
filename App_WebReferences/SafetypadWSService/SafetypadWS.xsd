@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws.safetypad.xolo.com.ni/" targetNamespace="http://ws.safetypad.xolo.com.ni/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Authenticate" type="tns:Authenticate" />
+  <xs:element name="AuthenticateResponse" type="tns:AuthenticateResponse" />
+  <xs:element name="ChangePassword" type="tns:ChangePassword" />
+  <xs:element name="ChangePasswordResponse" type="tns:ChangePasswordResponse" />
+  <xs:element name="GetAccount" type="tns:GetAccount" />
+  <xs:element name="GetAccountResponse" type="tns:GetAccountResponse" />
+  <xs:element name="GetActions" type="tns:GetActions" />
+  <xs:element name="GetActionsResponse" type="tns:GetActionsResponse" />
+  <xs:element name="GetApplicationInfo" type="tns:GetApplicationInfo" />
+  <xs:element name="GetApplicationInfoResponse" type="tns:GetApplicationInfoResponse" />
+  <xs:element name="GetApplications" type="tns:GetApplications" />
+  <xs:element name="GetApplicationsByType" type="tns:GetApplicationsByType" />
+  <xs:element name="GetApplicationsByTypeResponse" type="tns:GetApplicationsByTypeResponse" />
+  <xs:element name="GetApplicationsResponse" type="tns:GetApplicationsResponse" />
+  <xs:element name="GetCurrentSequenceValue" type="tns:GetCurrentSequenceValue" />
+  <xs:element name="GetCurrentSequenceValueResponse" type="tns:GetCurrentSequenceValueResponse" />
+  <xs:element name="GetDomainValue" type="tns:GetDomainValue" />
+  <xs:element name="GetDomainValueResponse" type="tns:GetDomainValueResponse" />
+  <xs:element name="GetDomainValues" type="tns:GetDomainValues" />
+  <xs:element name="GetDomainValuesResponse" type="tns:GetDomainValuesResponse" />
+  <xs:element name="GetExceptionsList" type="tns:GetExceptionsList" />
+  <xs:element name="GetExceptionsListResponse" type="tns:GetExceptionsListResponse" />
+  <xs:element name="GetGlobalParameter" type="tns:GetGlobalParameter" />
+  <xs:element name="GetGlobalParameterResponse" type="tns:GetGlobalParameterResponse" />
+  <xs:element name="GetHelpOfResource" type="tns:GetHelpOfResource" />
+  <xs:element name="GetHelpOfResourceByAppCode" type="tns:GetHelpOfResourceByAppCode" />
+  <xs:element name="GetHelpOfResourceByAppCodeResponse" type="tns:GetHelpOfResourceByAppCodeResponse" />
+  <xs:element name="GetHelpOfResourceResponse" type="tns:GetHelpOfResourceResponse" />
+  <xs:element name="GetHomePage" type="tns:GetHomePage" />
+  <xs:element name="GetHomePageResponse" type="tns:GetHomePageResponse" />
+  <xs:element name="GetHorizontalMenu" type="tns:GetHorizontalMenu" />
+  <xs:element name="GetHorizontalMenuResponse" type="tns:GetHorizontalMenuResponse" />
+  <xs:element name="GetLoginPath" type="tns:GetLoginPath" />
+  <xs:element name="GetLoginPathResponse" type="tns:GetLoginPathResponse" />
+  <xs:element name="GetMapSite" type="tns:GetMapSite" />
+  <xs:element name="GetMapSiteResponse" type="tns:GetMapSiteResponse" />
+  <xs:element name="GetMenu" type="tns:GetMenu" />
+  <xs:element name="GetMenuResponse" type="tns:GetMenuResponse" />
+  <xs:element name="GetMessage" type="tns:GetMessage" />
+  <xs:element name="GetMessageResponse" type="tns:GetMessageResponse" />
+  <xs:element name="GetNextSequenceValue" type="tns:GetNextSequenceValue" />
+  <xs:element name="GetNextSequenceValueResponse" type="tns:GetNextSequenceValueResponse" />
+  <xs:element name="GetOptionInfoFromResource" type="tns:GetOptionInfoFromResource" />
+  <xs:element name="GetOptionInfoFromResourceResponse" type="tns:GetOptionInfoFromResourceResponse" />
+  <xs:element name="GetParameter" type="tns:GetParameter" />
+  <xs:element name="GetParameterResponse" type="tns:GetParameterResponse" />
+  <xs:element name="GetRols" type="tns:GetRols" />
+  <xs:element name="GetRolsResponse" type="tns:GetRolsResponse" />
+  <xs:element name="GetUser" type="tns:GetUser" />
+  <xs:element name="GetUserResponse" type="tns:GetUserResponse" />
+  <xs:element name="GetUserSessionDetails" type="tns:GetUserSessionDetails" />
+  <xs:element name="GetUserSessionDetailsResponse" type="tns:GetUserSessionDetailsResponse" />
+  <xs:element name="GetVerticalMenu" type="tns:GetVerticalMenu" />
+  <xs:element name="GetVerticalMenuResponse" type="tns:GetVerticalMenuResponse" />
+  <xs:element name="HasPermission" type="tns:HasPermission" />
+  <xs:element name="HasPermissionResponse" type="tns:HasPermissionResponse" />
+  <xs:element name="InitSession" type="tns:InitSession" />
+  <xs:element name="InitSessionResponse" type="tns:InitSessionResponse" />
+  <xs:element name="IsActionAllowed" type="tns:IsActionAllowed" />
+  <xs:element name="IsActionAllowedResponse" type="tns:IsActionAllowedResponse" />
+  <xs:element name="IsAppBlocked" type="tns:IsAppBlocked" />
+  <xs:element name="IsAppBlockedResponse" type="tns:IsAppBlockedResponse" />
+  <xs:element name="RegistreAuditTrailEntry" type="tns:RegistreAuditTrailEntry" />
+  <xs:element name="RegistreAuditTrailEntryByResource" type="tns:RegistreAuditTrailEntryByResource" />
+  <xs:element name="RegistreAuditTrailEntryByResourceResponse" type="tns:RegistreAuditTrailEntryByResourceResponse" />
+  <xs:element name="RegistreAuditTrailEntryResponse" type="tns:RegistreAuditTrailEntryResponse" />
+  <xs:element name="RegistreException" type="tns:RegistreException" />
+  <xs:element name="RegistreExceptionResponse" type="tns:RegistreExceptionResponse" />
+  <xs:element name="ResetPass" type="tns:ResetPass" />
+  <xs:element name="ResetPassResponse" type="tns:ResetPassResponse" />
+  <xs:element name="SendRequestToHelpDesk" type="tns:SendRequestToHelpDesk" />
+  <xs:element name="SendRequestToHelpDeskResponse" type="tns:SendRequestToHelpDeskResponse" />
+  <xs:element name="TerminatePastSessions" type="tns:TerminatePastSessions" />
+  <xs:element name="TerminatePastSessionsResponse" type="tns:TerminatePastSessionsResponse" />
+  <xs:element name="TerminateSession" type="tns:TerminateSession" />
+  <xs:element name="TerminateSessionByApp" type="tns:TerminateSessionByApp" />
+  <xs:element name="TerminateSessionByAppResponse" type="tns:TerminateSessionByAppResponse" />
+  <xs:element name="TerminateSessionResponse" type="tns:TerminateSessionResponse" />
+  <xs:element name="UpdateSession" type="tns:UpdateSession" />
+  <xs:element name="UpdateSessionResponse" type="tns:UpdateSessionResponse" />
+  <xs:complexType name="GetUserSessionDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetUserSessionDetailsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetCurrentSequenceValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sequenceName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetCurrentSequenceValueResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetApplicationInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetApplicationInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetApplicationsByType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="login" type="xs:string" />
+      <xs:element minOccurs="0" name="type" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetApplicationsByTypeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ChangePassword">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="login" type="xs:string" />
+      <xs:element minOccurs="0" name="oldPass" type="xs:string" />
+      <xs:element minOccurs="0" name="newPass" type="xs:string" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ChangePasswordResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetVerticalMenu">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetVerticalMenuResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="InitSession">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionCode" type="xs:string" />
+      <xs:element minOccurs="0" name="login" type="xs:string" />
+      <xs:element minOccurs="0" name="ip" type="xs:string" />
+      <xs:element minOccurs="0" name="pcClient" type="xs:string" />
+      <xs:element minOccurs="0" name="appCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="InitSessionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RegistreException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="createDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="stackTrace" type="xs:string" />
+      <xs:element minOccurs="0" name="suggestedAction" type="xs:string" />
+      <xs:element minOccurs="0" name="agent" type="xs:string" />
+      <xs:element minOccurs="0" name="resourceUrl" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RegistreExceptionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetDomainValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nameDomain" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetDomainValuesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetLoginPath">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="GetLoginPathResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetExceptionsList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationCode" type="xs:string" />
+      <xs:element minOccurs="0" name="startDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="endDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="type" type="xs:string" />
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+      <xs:element minOccurs="0" name="extraInfo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetExceptionsListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetRols">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetRolsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminateSession">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+      <xs:element minOccurs="0" name="nameClient" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminateSessionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetAccount">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetAccountResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetOptionInfoFromResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+      <xs:element minOccurs="0" name="resource" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetOptionInfoFromResourceResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="parameterName" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetParameterResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetMapSite">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="appCode" type="xs:string" />
+      <xs:element minOccurs="0" name="resource" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetMapSiteResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UpdateSession">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="previousSessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="prevApplicationCode" type="xs:string" />
+      <xs:element minOccurs="0" name="currentSessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="currentApplicationName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UpdateSessionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IsActionAllowed">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+      <xs:element minOccurs="0" name="resource" type="xs:string" />
+      <xs:element minOccurs="0" name="action" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IsActionAllowedResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="HasPermission">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="resource" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="HasPermissionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHomePage">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHomePageResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetActions">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+      <xs:element minOccurs="0" name="resource" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetActionsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetNextSequenceValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sequenceName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetNextSequenceValueResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResetPass">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="login" type="xs:string" />
+      <xs:element minOccurs="0" name="email" type="xs:string" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResetPassResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="applicationCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RegistreAuditTrailEntryByResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationCode" type="xs:string" />
+      <xs:element minOccurs="0" name="applicationName" type="xs:string" />
+      <xs:element minOccurs="0" name="optionUrl" type="xs:string" />
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="ipServer" type="xs:string" />
+      <xs:element minOccurs="0" name="actionCrud" type="xs:string" />
+      <xs:element minOccurs="0" name="xmlObject" type="xs:string" />
+      <xs:element minOccurs="0" name="serverName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RegistreAuditTrailEntryByResourceResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHelpOfResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+      <xs:element minOccurs="0" name="resource" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHelpOfResourceResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SendRequestToHelpDesk">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationCode" type="xs:string" />
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+      <xs:element minOccurs="0" name="ip" type="xs:string" />
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SendRequestToHelpDeskResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RegistreAuditTrailEntry">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationCode" type="xs:string" />
+      <xs:element minOccurs="0" name="applicationName" type="xs:string" />
+      <xs:element minOccurs="0" name="moduleCode" type="xs:string" />
+      <xs:element minOccurs="0" name="moduleName" type="xs:string" />
+      <xs:element minOccurs="0" name="optionCode" type="xs:string" />
+      <xs:element minOccurs="0" name="optionName" type="xs:string" />
+      <xs:element minOccurs="0" name="optionUrl" type="xs:string" />
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+      <xs:element minOccurs="0" name="registrationDateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="ipServer" type="xs:string" />
+      <xs:element minOccurs="0" name="actionCrud" type="xs:string" />
+      <xs:element minOccurs="0" name="xmlObject" type="xs:string" />
+      <xs:element minOccurs="0" name="serverName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RegistreAuditTrailEntryResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetApplications">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="login" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetApplicationsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHorizontalMenu">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHorizontalMenuResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHelpOfResourceByAppCode">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="appCode" type="xs:string" />
+      <xs:element minOccurs="0" name="resource" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetHelpOfResourceByAppCodeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetMenu">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetMenuResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IsAppBlocked">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IsAppBlockedResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Authenticate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="login" type="xs:string" />
+      <xs:element minOccurs="0" name="pass" type="xs:string" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+      <xs:element minOccurs="0" name="pcClient" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AuthenticateResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminateSessionByApp">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" type="xs:string" />
+      <xs:element minOccurs="0" name="appName" type="xs:string" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+      <xs:element minOccurs="0" name="nameClient" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminateSessionByAppResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetDomainValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nameValue" type="xs:string" />
+      <xs:element minOccurs="0" name="nameDomain" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetDomainValueResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminatePastSessions">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="appInstance" type="xs:string" />
+      <xs:element minOccurs="0" name="ipClient" type="xs:string" />
+      <xs:element minOccurs="0" name="nameClient" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminatePastSessionsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetGlobalParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="parameterName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetGlobalParameterResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="messageCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetMessageResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,519 @@
+﻿<%--
+Los Skin definidos para cada control que se utilice en la aplicacion
+
+--%>
+
+
+<%--                        LOS GRID                     --%>
+<%-- --------------------------------------------------- --%>
+
+<%--SKIN PARA EL GRIDVIEW, COLOR AZUL GRIDVIEWDEFAULT--%> 
+<asp:GridView runat="server" AutoGenerateColumns="False" 
+  Width="100%" AllowPaging="True" ShowFooter="False" PageSize="10" CellSpacing="0"
+  CssClass="rich-table-cell" 
+  RowStyle-HorizontalAlign ="Center" HeaderStyle-HorizontalAlign = "Center" 
+  FooterStyle-HorizontalAlign = "Center">
+<RowStyle CssClass="rich-panel-body" />
+<SelectedRowStyle CssClass="rich-datascr-act" HorizontalAlign="Center" />
+<HeaderStyle CssClass="buttonNormal" />
+<PagerStyle CssClass = "PagerStyleGrid" HorizontalAlign="Center" />
+</asp:GridView>
+
+
+<%--SKIN PARA EL GRIDVIEW, COLOR AZUL GRIDVIEWDEFAULT 10 --%> 
+<asp:GridView runat="server" AutoGenerateColumns="False" 
+  Width="100%" AllowPaging="True" ShowFooter="True" PageSize="10" CellSpacing="0"
+  CssClass="rich-table-cell" SkinId="GVDefault10"  BorderWidth="0px" BorderColor="Transparent" BorderStyle="None"
+  RowStyle-HorizontalAlign ="Center" HeaderStyle-HorizontalAlign = "Center" 
+  FooterStyle-HorizontalAlign = "Center">
+<RowStyle CssClass="rich-panel-body" />
+<FooterStyle CssClass= "buttonNormal" />
+<SelectedRowStyle CssClass="rich-panel-header" />
+<HeaderStyle CssClass="buttonNormal" />
+<PagerStyle CssClass = "buttonNormal" HorizontalAlign="Center" />
+</asp:GridView>
+
+<%--SKIN PARA EL GRIDVIEW, COLOR AZUL GRIDVIEWDEFAULT 15 --%> 
+<asp:GridView runat="server" AutoGenerateColumns="False" 
+  Width="100%" AllowPaging="True" ShowFooter="True" PageSize="15" CellSpacing="0"
+  CssClass="rich-table-cell" SkinId="GVDefault15" 
+  RowStyle-HorizontalAlign ="Center" HeaderStyle-HorizontalAlign = "Center" 
+  FooterStyle-HorizontalAlign = "Center">
+<RowStyle CssClass="rich-panel-body" />
+<FooterStyle CssClass= "buttonNormal" />
+<SelectedRowStyle CssClass="rich-panel-header" />
+<HeaderStyle CssClass="buttonNormal" />
+<PagerStyle CssClass = "buttonNormal" HorizontalAlign="Center" />
+</asp:GridView>
+
+<%--SKIN PARA EL GRIDVIEW, COLOR AZUL GRIDVIEWDEFAULT 20 --%> 
+<asp:GridView runat="server" AutoGenerateColumns="False" 
+  Width="100%" AllowPaging="True" ShowFooter="True" PageSize="20" CellSpacing="0"
+  CssClass="rich-table-cell" SkinId="GVDefault20" 
+  RowStyle-HorizontalAlign ="Center" HeaderStyle-HorizontalAlign = "Center" 
+  FooterStyle-HorizontalAlign = "Center">
+<RowStyle CssClass="rich-panel-body" />
+<FooterStyle CssClass= "buttonNormal" />
+<SelectedRowStyle CssClass="rich-panel-header" />
+<HeaderStyle CssClass="buttonNormal" />
+<PagerStyle CssClass = "buttonNormal" HorizontalAlign="Center" />
+</asp:GridView>
+
+<%--SKIN PARA EL GRIDVIEW, COLOR AZUL GRIDVIEWDEFAULT 5 --%> 
+<asp:GridView runat="server" AutoGenerateColumns="False" 
+  Width="100%" AllowPaging="True" ShowFooter="True" PageSize="4" CellSpacing="0"
+  CssClass="rich-table-cell" SkinId="GVDefault5" 
+  RowStyle-HorizontalAlign ="Center" HeaderStyle-HorizontalAlign = "Center" 
+  FooterStyle-HorizontalAlign = "Center">
+<RowStyle CssClass="rich-panel-body" />
+<FooterStyle CssClass= "buttonNormal" />
+<SelectedRowStyle CssClass="rich-panel-header" />
+<HeaderStyle CssClass="buttonNormal" />
+<PagerStyle CssClass = "PagerStyleGrid" BackColor="#c5d3d7" HorizontalAlign="Center" />
+</asp:GridView>
+
+<%--SKIN PARA EL GRIDVIEW, COLOR AZUL GRIDVIEWDEFAULT 5 --%> 
+<asp:GridView runat="server" AutoGenerateColumns="False"  CellSpacing="0"
+  Width="100%" AllowPaging="false" ShowFooter="True"
+  CssClass="rich-table-cell" SkinId="GVDefaultNoPage" 
+  RowStyle-HorizontalAlign ="Center" HeaderStyle-HorizontalAlign = "Center"
+  FooterStyle-HorizontalAlign = "Center" >
+<RowStyle CssClass="rich-panel-body" />
+<FooterStyle CssClass= "buttonNormal" />
+<HeaderStyle CssClass="buttonNormal" />
+<PagerStyle CssClass = "buttonNormal" />
+<SelectedRowStyle CssClass="rich-datascr-act" HorizontalAlign="Center" />
+</asp:GridView>
+
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+
+
+<%--                     LOS TEXTBOX                     --%>
+<%-- --------------------------------------------------- --%>
+
+
+<%--      SKIN PARA EL TEXTBOX, ESTILO POR DEFECTO       --%>
+<asp:TextBox runat="server"
+   CssClass="inputenable"> 
+</asp:TextBox>
+
+<asp:TextBox runat="server" SkinId="TextBoxDefault" CssClass="textboxSolo" >
+</asp:TextBox>
+
+<%--      SKIN PARA EL TEXTBOX, ESTILO POR DEFECTO       --%>
+<asp:TextBox runat="server" SkinId="TextBoxDefaultDisable"
+   CssClass="disable" 
+   Height="14px"
+   BackColor="#EBEBEB" >
+</asp:TextBox>
+
+<%--  skin para los textbox --%>
+ <asp:TextBox runat="server"  CssClass="TextBox" SkinId="xoloTextbox"
+ BorderColor ="#a4c8fa"
+ BorderStyle="solid" 
+ BorderWidth="1px" 
+ Font-Names="Verdana"
+ Font-Size="10px" 
+ ForeColor="#333333" 
+ height="12px"/>
+ 
+  <%--  skin para los textbox de sms --%>
+  <asp:TextBox runat="server" SkinId="xoloTextboxSMS"  CssClass="TextBox"
+ BorderColor ="#a4c8fa"
+ BorderStyle="solid" 
+ BorderWidth="1px" 
+ Font-Names="Verdana"
+ Font-Size="10px" 
+ ForeColor="#333333" 
+ height="12px"/>
+ 
+ 
+  <%--  skin para los textbox que es No Editable --%>
+<asp:TextBox runat="server" SkinId="xolotextboxnoeditable"  CssClass="TextBox"
+ BorderColor ="#a4c8fa"
+ BorderStyle="solid" 
+ BorderWidth="1px" 
+ Font-Names="Verdana"
+ Font-Size="10px" 
+ ForeColor="#333333" 
+ BackColor="#EBEBEB"
+ height="12px"/>
+ 
+  <%--  skin para los textbox con cantidades numericas --%>
+ <asp:TextBox runat="server" SkinId="xolotextboxnumeros"  CssClass="TextBoxNum"
+ BorderColor ="#a4c8fa"
+ BorderStyle="solid" 
+ BorderWidth="1px" 
+ Font-Names="Verdana"
+ Font-Size="14px" 
+ ForeColor="#333333" />
+ 
+  <%--  skin para los textbox que es No Editable con cantidades numericas --%>
+<asp:TextBox runat="server" SkinId="xolotextboxnoeditablenumeros"  CssClass="TextBoxNum"
+ BorderColor ="#a4c8fa"
+ BorderStyle="solid" 
+ BorderWidth="1px" 
+ Font-Names="Verdana"
+ Font-Size="10px" 
+ ForeColor="#333333" 
+ BackColor="#EBEBEB"/>
+  
+<%--  skin para los textbox cuando son textarea --%>
+<asp:TextBox runat="server" SkinId="xolotextarea" 
+BorderColor ="#a4c8fa"
+BorderStyle="solid"
+BorderWidth="1px" 
+ForeColor="#333333"/>
+
+<%--  skin para los textbox cuando son textarea y No Editable --%>
+<asp:TextBox runat="server" SkinId="xolotextareanoeditable" 
+BorderColor ="#a4c8fa"
+BorderStyle="solid"
+BorderWidth="1px" 
+ForeColor="#EBEBEB"/>
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+
+
+<%--                    LOS COMBOBOX                     --%>
+<%-- --------------------------------------------------- --%>
+
+<asp:DropDownList runat="server"
+    CssClass="comboboxenable"
+    Height = "22px">
+</asp:DropDownList>
+
+<%--     SKIN PARA EL COMBOBOX, ESTILO POR DEFECTO       --%>
+<asp:DropDownList runat="server" SkinId="DropDLDefault"
+    CssClass="comboboxenable" 
+    Height = "22px">
+</asp:DropDownList>
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+
+<%--                    LOS IMAGE                        --%>
+<%-- --------------------------------------------------- --%>
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO LOADING           --%>
+<asp:Image runat="server" Height="20px" SkinId="imgLoad"
+  ImageUrl="~/include/imagenes/loading_blue.gif" 
+  Width="20px" >
+</asp:Image>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO INFO              --%>
+<asp:Image runat="server" Height="20px" SkinId="imgInfo"
+  ImageUrl="~/include/imagenes/msg_info.png" 
+  Width="20px">
+</asp:Image>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO INFO              --%>
+<asp:Image runat="server" Height="14px" SkinId="imgModule"
+  ImageUrl="~/include/imagenes/ico_modulo.png" 
+  Width="14px">
+</asp:Image>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO LOADING           --%>
+<asp:Image runat="server" Height="10px" SkinId="imgLoading"
+  ImageUrl="~/include/imagenes/loading.gif" Width="150px">
+</asp:Image>
+
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+                           
+<%--                 LOS IMAGE BUTTONS                   --%>
+<%-- --------------------------------------------------- --%>
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO EDITAR            --%>
+<asp:ImageButton SkinId="Editar" runat="server" 
+    ImageUrl="~/include/imagenes/ico_edit.gif" 
+    ToolTip="Editar">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO ELIMINAR          --%>
+<asp:ImageButton SkinId="Eliminar" runat="server" 
+    ImageUrl="~/include/imagenes/ico_delete.gif" 
+    ToolTip="Eliminar">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO CANCELAR          --%>
+<asp:ImageButton SkinId="Cancelar" runat="server" 
+    ImageUrl="~/include/imagenes/ico_error_red.gif" 
+    ToolTip="Cancelar">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO GUARDAR           --%>
+<asp:ImageButton SkinId="Guardar" runat="server" 
+    ImageUrl="~/include/imagenes/ico_guardar.gif" 
+    ToolTip="Guardar">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO HISTORIAL         --%>
+<asp:ImageButton SkinId="Historial" runat="server" 
+    ImageUrl="~/include/imagenes/ico_listar.png" 
+    ToolTip="Historial">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO LISTAR            --%>
+<asp:ImageButton SkinId="Listar" runat="server" 
+    ImageUrl="~/include/imagenes/ico_listar.png" 
+    ToolTip="Listar">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO SALIR            --%>
+<asp:ImageButton SkinId="Salir" runat="server" 
+    ImageUrl="~/include/imagenes/ico_aplicacion_inactivo.png" 
+    ToolTip="Salir">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO CALENDARRIO      --%>
+<asp:ImageButton SkinId="Calendario" runat="server" 
+    ImageUrl="~/include/imagenes/calendar.gif" 
+    ToolTip="Fecha">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO DESCARGAR      --%>
+<asp:ImageButton SkinId="Descargar" runat="server" 
+    ImageUrl="~/include/imagenes/down_32.gif"
+    HEIGHT = "22px" WIDTH ="22px" 
+    ToolTip="Descargar">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO CARGAR          --%>
+<asp:ImageButton SkinId="Subir" runat="server" 
+    ImageUrl="~/include/imagenes/up_32.gif" 
+    HEIGHT = "22px" WIDTH ="22px" 
+    ToolTip="Subir archivo">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO DETALLE          --%>
+<asp:ImageButton SkinId="Detalle" runat="server" 
+    ImageUrl="~/include/imagenes/ico_listar.png" 
+    ToolTip="Detalle">
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO BUSCAR           --%>
+<asp:ImageButton SkinId="Buscar" runat="server" 
+    ImageUrl="~/include/imagenes/ico_view.gif" 
+    ToolTip="Buscar" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO IMPRIMIR         --%>
+<asp:ImageButton SkinId="Imprimir" runat="server" 
+    ImageUrl="~/include/imagenes/ico_imprimir.gif" 
+    ToolTip="Imprimir" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO LIMPIAR         --%>
+<asp:ImageButton SkinId="Limpiar" runat="server" 
+    ImageUrl="~/include/imagenes/clear_field.png" 
+    ToolTip="Limpiar" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO BUSCAR USUARIO   --%>
+<asp:ImageButton SkinId="Contacto" runat="server" 
+    ImageUrl="~/include/imagenes/contacts_f2.png" 
+    ToolTip="Contacto" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO EJECUTIVO         --%>
+<asp:ImageButton SkinId="Ejecutivo" runat="server" 
+    ImageUrl="~/include/imagenes/person4_f2.png" 
+    ToolTip="Ejecutivo" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO ATIENDE         --%>
+<asp:ImageButton SkinId="Atiende" runat="server" 
+    ImageUrl="~/include/imagenes/help_f2.png" 
+    ToolTip="Atiende" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO SELECCIONAR USUARIO         --%>
+<asp:ImageButton SkinId="SeleccionarUsuario" runat="server" 
+    ImageUrl="~/include/imagenes/ico_aceptar_cliente.gif" 
+    ToolTip="Seleccionar Usuario" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO ELIMINAR USUARIO         --%>
+<asp:ImageButton SkinId="EliminarUsuario" runat="server" 
+    ImageUrl="~/include/imagenes/user1_delete.png" 
+    ToolTip="Eliminar Usuario" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO AGREGAR USUARIO         --%>
+<asp:ImageButton SkinId="AgregarUsuario" runat="server" 
+    ImageUrl="~/include/imagenes/agregar_usuario.png" 
+    ToolTip="Agregar Usuario" HEIGHT = "18px" WIDTH ="18px" >
+</asp:ImageButton>
+
+<%--SKIN PARA EL IMAGE BUTTONS, ESTILO EXPORTAR EXCEL          --%>
+<asp:ImageButton SkinId="ExportarExcel" runat="server" 
+    ImageUrl="~/include/imagenes/Excel.png" 
+    ToolTip="Exportar a Excel" >
+</asp:ImageButton>
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+
+
+<%--                        BOTONES                      --%>
+<%-- --------------------------------------------------- --%>
+
+<%--                    BOTON ELIMINAR                    --%>
+<asp:Button  runat="server" CssClass="buttonNormal" >
+</asp:Button>
+
+<asp:Button SkinId="btnNew" runat="server" CssClass="buttonNormal" 
+    Text="Nuevo"
+    ToolTip="Nuevo" >
+</asp:Button>
+
+<%--                    BOTON ELIMINAR                    --%>
+<asp:Button SkinId="btnDelete" runat="server" CssClass="buttonNormal" 
+    Text="Eliminar"
+    ToolTip="Eliminar" >
+</asp:Button>
+
+<%--                    BOTON ACEPTAR                    --%>
+<asp:Button SkinId="btnAcept" runat="server" CssClass="buttonNormal" 
+    Text="Aceptar"
+    ToolTip="Aceptar" >
+</asp:Button>
+
+<%--                    BOTON ACEPTAR                    --%>
+<asp:Button SkinId="btnAceptX" runat="server" CssClass="Botones" 
+    Text="Aceptar"
+    ToolTip="Aceptar" >
+</asp:Button>
+
+<%--                   BOTON CANCELAR                    --%>
+<asp:Button SkinId="btnCancel" runat="server" CssClass="buttonNormal" 
+    Text="Cancelar"
+    ToolTip="Cancelar" >
+</asp:Button>
+
+<%--                   BOTON CANCELAR                    --%>
+<asp:Button SkinId="btnCancelX" runat="server" CssClass="Botones" 
+    Text="Cancelar"
+    ToolTip="Cancelar" >
+</asp:Button>
+
+<%--                    BOTON AGREGAR                    --%>
+<asp:Button SkinId="btnAdd" runat="server" CssClass="buttonNormal" 
+    Text="Agregar"
+    ToolTip="Agregar" >
+</asp:Button>
+
+<%--                    BOTON AGREGAR                    --%>
+<asp:Button SkinId="btnAddX" runat="server" CssClass="Botones" 
+    Text="Agregar"
+    ToolTip="Agregar" >
+</asp:Button>
+
+<%--                    BOTON MODIFICAR                  --%>
+<asp:Button SkinId="btnModifie" runat="server" CssClass="buttonNormal" 
+    Text="Modificar"
+    ToolTip="Modificar" >
+</asp:Button>
+
+<%--                    BOTON SALIR                      --%>
+<asp:Button SkinId="btnExit" runat="server" CssClass="buttonNormal" 
+    Text="Salir"
+    ToolTip="Salir" >
+</asp:Button>
+
+<%--                    BOTON GUARDAR                    --%>
+<asp:Button SkinId="btnSave" runat="server" CssClass="buttonNormal" 
+    Text="Guardar"
+    ToolTip="Guardar" >
+</asp:Button>
+
+<%--                    BOTON GENERAR                    --%>
+<asp:Button SkinId="btnGenerate" runat="server" CssClass="buttonNormal" 
+    Text="Generar"
+    ToolTip="Generar" >
+</asp:Button>
+
+<%--                    BOTON REENVIAR                    --%>
+<asp:Button SkinId="btnForward" runat="server" CssClass="buttonNormal" 
+    Text="Reenviar"
+    ToolTip="Reenviar" >
+</asp:Button>
+
+<%--                    BOTON ENVIAR                    --%>
+<asp:Button SkinId="btnSend" runat="server" CssClass="buttonNormal" 
+    Text="Enviar"
+    ToolTip="Enviar" >
+</asp:Button>
+
+<%--                    BOTON CONSULTAR                    --%>
+<asp:Button SkinId="btnConsult" runat="server" CssClass="buttonNormal" 
+    Text="Consultar"
+    ToolTip="Consultar" >
+</asp:Button>
+
+<%--                    BOTON CARGAR                    --%>
+<asp:Button SkinId="btnLoad" runat="server" CssClass="buttonNormal" 
+    Text="Cargar"
+    ToolTip="Cargar" >
+</asp:Button>
+
+<%--                    BOTON PROCESAR                  --%>
+<asp:Button SkinId="btnProcess" runat="server" CssClass="buttonNormal" 
+    Text="Procesar"
+    ToolTip="Procesar" >
+</asp:Button>
+
+<%--                    BOTON BUSCAR                  --%>
+<asp:Button SkinId="btnSearch" runat="server" CssClass="buttonNormal" 
+    Text="Buscar"
+    ToolTip="Buscar" >
+</asp:Button>
+
+<%--                    BOTON LIMPIAR                  --%>
+<asp:Button SkinId="btnCleaner" runat="server" CssClass="buttonNormal" 
+    Text="Limpiar"
+    ToolTip="Limpiar" >
+</asp:Button>
+
+<%--                    BOTON GRABAR                  --%>
+<asp:Button SkinId="btnRecord" runat="server" CssClass="buttonNormal" 
+    Text="Grabar"
+    ToolTip="Grabar" >
+</asp:Button>
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+
+
+<%--                        PANELES                      --%>
+<%-- --------------------------------------------------- --%>
+<asp:Panel SkinId="pnlTittle" runat="server" 
+CssClass="rich-panel-header">
+</asp:Panel>
+
+<asp:Panel SkinId="pnlTittleGrid" runat="server"  CssClass="buttonNormal">
+</asp:Panel>
+
+
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+
+
+<%--                        LABELS                       --%>
+<%-- --------------------------------------------------- --%>
+
+<%-- --------------------------------------------------- --%>
+<%--                  LABEL TITULO DE PAGINA             --%>
+<asp:Label SkinId="lblTittle" runat="server"  
+CssClass = "Titulo" Height="24px" Width="100%">
+</asp:Label>
+<%--  -------------------------------------------------  --%>
+<%--  -------------------------------------------------  --%>
+
+
+
+<%-- <asp:CheckBoxList runat="server" CssClass="box-check"/>--%>

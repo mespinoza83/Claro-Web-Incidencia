@@ -1,0 +1,725 @@
+#contenido {
+    padding-bottom: 0px;
+    background-color: #fff;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    color: #000000;
+    font-weight: normal;
+}
+#contenido form {
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px
+}
+#contenido form .contentPanel {
+	border: #fff 1px solid;
+}
+#contenido form .contentPanel td.Panel {
+	padding:0px;
+}
+#contenido form table.HeaderPanel {
+	height: 34px;
+	border-bottom:1px solid #cedfea;
+}
+#contenido form table.HeaderPanel td.tituloPanel {
+	width: 100%;
+	font-size:1.6em;
+	color:#065294;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	padding-left:6px;
+}
+#contenido form table.HeaderPanel td.topPanel {
+	border-bottom: #dadada 1px solid;
+	width: 80%
+}
+p.legend {
+	margin-bottom: 1em
+}
+p.legend em {
+	font-style: normal;
+	color: #c00
+}
+div.errors {
+	border-bottom: #cc9900 1px solid;
+	border-left: #cc9900 1px solid;
+	padding-bottom: 5px;
+	background-color: #ffffcc;
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top: #cc9900 1px solid;
+	border-right: #cc9900 1px solid;
+	padding-top: 5px
+}
+div.errors p {
+	margin: 0px
+}
+div.errors p em {
+	font-style: normal;
+	color: #c00;
+	font-weight: bold
+}
+div.infos {
+	border-bottom: #cc9900 1px dotted;
+	padding-bottom: 5px;
+	background-color: #f4f4f4;
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px
+}
+div.infos p {
+	margin: 0px
+}
+div.infos p em {
+	font-style: normal;
+	color: #0969a7;
+	font-weight: bold
+}
+#contenido form p {
+	margin: 0px
+}
+#contenido form .h1 {
+	padding-bottom: 4px;
+	line-height: 34px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 4px;
+	font-weight: bold;
+	padding-top: 20px
+}
+#contenido form p.note {
+	color: #333;
+	margin-left: 170px
+}
+#contenido form fieldset {
+	border-bottom: medium none;
+	border-left: medium none;
+	padding-bottom: 10px;
+	margin: 4px 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top: medium none;
+	border-right: medium none;
+	padding-top: 10px
+}
+#contenido form fieldset.busqueda {
+	border-bottom: medium none;
+	border-left: medium none;
+	padding-bottom: 0px;
+	background-color: #dce5e8;
+	padding-left: 0px;
+	width: 100%;
+	padding-right: 0px;
+	height: 38px;
+	border-top: medium none;
+	border-right: medium none;
+	padding-top: 0px
+}
+#contenido form fieldset.busqueda table {
+	border-bottom: #ffffff 1px solid;
+	height: 34px
+}
+#contenido form fieldset.imprimir {
+	border-bottom: #ffffff 0px solid;
+	border-left: #ffffff 0px solid;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	padding-right: 0px;
+	border-top: #ffffff 0px solid;
+	border-right: #ffffff 0px solid;
+	padding-top: 0px
+}
+#contenido form legend {
+	color: #666;
+	font-weight: bold
+}
+#contenido form fieldset div {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0.25em
+}
+#contenido form fieldset div h1 {
+	border-bottom: #ccc 1px solid;
+	padding-bottom: 6px;
+	padding-left: 4px;
+	padding-right: 0px;
+	background: url(../imagenes/bg_tit_form.gif) #fff 0% 100%;
+	font-size: 1em;
+	border-top: #ccc 1px solid;
+	padding-top: 6px
+}
+#contenido form fieldset div td {
+	padding-top: 4px
+}
+#contenido label {
+	position: relative;
+	text-align: right;
+	width: 150px;
+	padding-right: 10px;
+	display: block;
+	float: left;
+	margin-right: 10px
+}
+#contenido span.label {
+	position: relative;
+	text-align: right;
+	width: 216px;
+	padding-right: 10px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+    top: 4px;
+    left: 0px;
+    font-weight: 700;
+    color: #000066;
+}
+#contenido label.error {
+	color: #c00
+}
+#contenido span.error {
+	color: #c00
+}
+#contenido label em {
+	position: absolute;
+	font-style: normal;
+	color: #c00;
+	right: 0px
+}
+#contenido Titulo jh {
+	position: absolute;
+	font-style: normal;
+	color: #000080;
+	font-weight:bold;
+	right: 0px
+}
+jh {
+	font-style: normal;
+	color: #000080;
+	right: 0px
+}
+em {
+	font-style: normal;
+	color: #c00;
+	right: 0px
+}
+#contenido span.label em {
+	position: absolute;
+	font-style: normal;
+	color: #c00;
+	right: 0px
+}
+#contenido div.controlset label {
+	display: inline;
+	float: none
+}
+#contenido div.controlset input {
+	display: inline;
+	float: none
+}
+#contenido div.controlset div {
+	margin-left: 170px
+}
+#contenido div.buttonrow {
+	margin: 0px 10px;
+	border-top: #ccc 1px solid;
+	padding-top: 4px
+}
+#contenido div.buttonsolito {
+	margin: 0px 10px;
+	border-top: #ccc 0px solid;
+	padding-top: 4px
+}
+.buttonform {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background: url(../imagenes/bg_buttons.gif) repeat-x left bottom;
+	height: 24px;
+	color: #333;
+	border-top: #999999 1px solid;
+	cursor: pointer;
+	border-right: #999999 1px solid;
+	padding-top: 1px
+}
+.buttonppal {
+	border-bottom: #ffa516 1px solid;
+	border-left: #ffa516 1px solid;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background: url(../imagenes/bg_buttons_ppal.gif) repeat-x 0% 50%;
+	height: 24px;
+	color: #333;
+	border-top: #ffa516 1px solid;
+	cursor: pointer;
+	border-right: #ffa516 1px solid;
+	padding-top: 1px
+}
+.buttonenable {
+	border-bottom: #ffa516 1px solid;
+	border-left: #ffa516 1px solid;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background: url(../imagenes/bg_buttons.gif) repeat-x left top;
+	height: 24px;
+	color: #333;
+	border-top: #ffa516 1px solid;
+	cursor: pointer;
+	border-right: #ffa516 1px solid;
+	padding-top: 1px
+}
+.buttondisable {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-right: #999999 1px solid
+}
+.buttonentrar {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	width: 130px;
+	padding-right: 1px;
+	background: url(../imagenes/bg_buttons_solicitar.gif) repeat-x left top;
+	height: 24px;
+	margin-left: 98px;
+	border-top: #999999 1px solid;
+	cursor: pointer;
+	border-right: #999999 1px solid;
+	padding-top: 1px
+}
+.buttonimprimir {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-right: #999999 1px solid
+}
+.comboboxenable {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-right: #999999 1px solid;
+    border-color: #a4c8fa
+    }
+.comboboxdisable {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-right: #999999 1px solid
+}
+.inputdisable {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background: #f0f4f5;
+	border-top: #999999 1px solid;
+	border-right: #999999 1px solid;
+	padding-top: 3px
+}
+.inputenable {
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-top: #999999 1px solid;
+	border-right: #999999 1px solid;
+	padding-top: 3px
+}
+.tabladetallexml {
+	background-color: #cccccc;
+	width: 100%
+}
+.tabladetallexml td {
+	padding-left: 4px;
+	padding-right: 4px
+}
+.tabladetallexmlheader {
+	text-align: left;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background: url(../imagenes/bgtittables.gif) #ffffff repeat-x 0% 100%;
+	vertical-align: top;
+	font-weight: bold;
+	border-right: #ffffff 1px solid;
+	padding-top: 4px
+}
+.tabladetallexmlheader a {
+	text-decoration: none
+}
+.tabladetallexmlheader a:hover {
+	color: #ff6600;
+	text-decoration: none
+}
+.tabladetallexmlevenrow {
+	text-align: left;
+	background-color: #f7f5f5;
+	white-space: nowrap;
+	height: 25px
+}
+.tabladetallexmloddrow {
+	text-align: left;
+	background-color: #eeeeee;
+	white-space: nowrap;
+	height: 25px
+}
+.tabladetallexmlevencolumn {
+	border-bottom: #ffffff 1px solid;
+	text-align: left;
+	padding-left: 2px;
+	padding-right: 2px;
+	white-space: nowrap;
+	vertical-align: top;
+	border-right: #ffffff 1px solid
+}
+.tabladetallexmloddcolumn {
+	border-bottom: #ffffff 1px solid;
+	text-align: left;
+	padding-left: 2px;
+	padding-right: 2px;
+	white-space: nowrap;
+	vertical-align: top;
+	border-right: #ffffff 1px solid
+}
+textobienvenida {
+	font-style: italic;
+	font-size: 14px;
+	font-weight: bold
+}
+.topuploadcontrol {
+	vertical-align: top
+}
+.infouploadcontrol {
+	height: 124px;
+	overflow: auto
+}
+#paginacion a#pagnumber {
+	background-image: url(../imagenes/bgpages.gif);
+	border-bottom: #dbdbdb 1px solid;
+	border-left: #dbdbdb 1px solid;
+	padding-bottom: 1px;
+	line-height: 30px;
+	padding-left: 5px;
+	width: 30px;
+	padding-right: 5px;
+	color: #333333;
+	border-top: #dbdbdb 1px solid;
+	border-right: #dbdbdb 1px solid;
+	text-decoration: none;
+	padding-top: 1px
+}
+#paginacion a#pagnumber:hover {
+	background-image: url(../imagenes/bgpagesover.gif)
+}
+#paginacion a#currentpage {
+	background-image: url(../imagenes/bgpagesover.gif);
+	border-bottom: #dbdbdb 1px solid;
+	border-left: #dbdbdb 1px solid;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	width: 30px;
+	padding-right: 5px;
+	color: #333333;
+	border-top: #dbdbdb 1px solid;
+	border-right: #dbdbdb 1px solid;
+	text-decoration: none;
+	padding-top: 1px
+}
+#paginacion a img {
+	border-right-width: 0px;
+	margin-top: 6px;
+	width: 18px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	height: 18px;
+	border-left-width: 0px
+}
+a#first img {
+	border-bottom: medium none;
+	border-left: medium none;
+	background: url(../imagenes/arrow_first.gif);
+	border-top: medium none;
+	border-right: medium none
+}
+a#previous img {
+	border-bottom: medium none;
+	border-left: medium none;
+	background: url(../imagenes/arrow_previous.gif);
+	border-top: medium none;
+	border-right: medium none
+}
+a#next img {
+	border-bottom: medium none;
+	border-left: medium none;
+	background: url(../imagenes/arrow_next.gif);
+	border-top: medium none;
+	border-right: medium none
+}
+a#last img {
+	border-bottom: medium none;
+	border-left: medium none;
+	background: url(../imagenes/arrow_last.gif);
+	border-top: medium none;
+	border-right: medium none
+}
+a#first:hover img {
+	border-bottom: medium none;
+	border-left: medium none;
+	background: url(../imagenes/arrow_first_over.gif);
+	border-top: medium none;
+	border-right: medium none
+}
+a#previous:hover img {
+	border-bottom: medium none;
+	border-left: medium none;
+	background: url(../imagenes/arrow_previous_over.gif);
+	border-top: medium none;
+	border-right: medium none
+}
+a#next:hover img {
+	border-bottom: medium none;
+	border-left: medium none;
+	background: url(../imagenes/arrow_next_over.gif);
+	border-top: medium none;
+	border-right: medium none
+}
+a#last:hover img{ 
+	border-bottom: medium none;
+	border-left: medium none;
+/*estilos botones, inputs, textareas*/
+input[type="input"], input[type="text"],select, textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:1em;
+	border: #afcbdf 1px solid;
+	padding: 4px;
+	background:#FFF url(../imagenes/bg_inputs_fields.png) repeat-x 0% 0%;  
+}
+
+	border-top: #ccc 1px solid;
+	font-weight: bold;
+	padding-top: 6px
+}
+.nuevapaginacolumnaizquierda {
+	width: 50%;
+
+button[type="button"], button[type="reset"], button[type="submit"], input[type="reset"], input[type="submit"], input[type="button"] {
+	border-color:#BED6F8;
+        margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 0px;
+}
+ign: center;
+	width: 25px
+}
+.borderless {
+	border-bottom: #000 0px solid;
+	border-left: #000 0px solid;
+	border-top: #000 0px solid;
+	border-right: #000 0px solid
+}
+.validation {
+	border-bottom: 0px solid;
+	text-align: justify;
+	border-left: 0px solid;
+	padding-bottom: 15px;
+	list-style-type: none;
+	margin: 10px 0px;
+	padding-left: 50px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	border-top: 0px solid;
+	border-right: 0px solid;
+	padding-top: 15px
+}
+/*estilos botones, inputs, textareas*/
+input[type="input"], input[type="text"],select, textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:1em;
+	border: #afcbdf 1px solid;
+	padding: 4px;
+	background:#FFF url(../imagenes/bg_inputs_fields.png) repeat-x 0% 0%;  
+}
+select{
+	padding: 2px;
+}
+input[type="input"]:focus, input[type="text"]:focus, select:focus, textarea:focus{
+	background:none;
+	border:1px solid #7ba9da;
+}
+button[type="button"], button[type="reset"], button[type="submit"], input[type="reset"], input[type="submit"], input[type="button"] {
+	border-color:#BED6F8;
+        margin:0px 4px 0px 4px;
+}
+button[type="button"]:focus, button[type="reset"]:focus, button[type="submit"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, input[type="button"]:focus {
+	border:1px solid #7ba9da;
+}
+#contenido input.error:focus {
+	background-color: #f5e8d0;
+	border:1px solid #db7137;
+}
+#contenido input.error {
+	background-color: #f5e8d0;
+	border:1px solid #db7137;
+}
+.buttonNormal, .buttonNormal2 {
+	font-weight:bold;
+	border:1px solid #afcbdf;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	background:#ffffff url(../imagenes/bg_buttons.png) 0% 50%;
+	padding:3px 10px 3px 10px;
+}
+/* {
+	font-weight:bold;
+	border:1px solid #6ba900;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	background:#ffffff url(../imagenes/bg_buttons_green.png) 0% 100%;
+	padding:2px 10px 2px 10px;
+	height:25px;
+}*/
+
+/********************* titulos ***************************/
+#titulos
+{
+	font-size: 14px;
+	color:#000066;
+	text-align:center;
+	width:760px;
+	padding:0px;
+	background-color:#cddae3;
+	border-bottom:1px dotted #000033;
+}
+
+.Titulo
+{
+	/* Aplicacion: TABLE
+	Accion: Color de fondo y fuente de titulos en general para fomularios y listados*/
+	color:#0e5c83;
+	font-weight:normal;
+	font-size:13px;
+	width: 100%;
+	margin: 6px auto;
+	text-indent:4px;
+	vertical-align: middle;
+	padding-top:6px;
+	border-bottom:1px dashed #b5d3fd;
+	background:url(../imagenes/bgTituloModulo.gif) 100% 100%;
+}
+
+.titulos
+{
+	font-size: 14px;
+	color:#000066;
+	text-align:center;
+	width:760px;
+	padding:0px;
+	background-color:#cddae3;
+	border-bottom:1px dotted #000033;
+}
+
+/********************* botones ***************************/
+.Botones{
+	/* Aplicacion: INPUT BUTTON 
+	Accion: Estilo de botones normal*/
+   background:url(../imagenes/btn.gif) 100% 100%;
+   border:1px solid #006699;
+   text-align:center;
+  margin:0px 0px 0px 4px;
+   padding:0px 10px 0px 10px;
+ }
+
+/********************* textbox ***************************/
+.InputNoEditable{
+	/* Aplicacion: INPUT 
+	Accion: Color de fondo para campos de entrada no editables*/
+	background-color:  #EBEBEB;
+	border:solid 1px #a4c8fa; 
+	
+}
+
+.InputNoEditableNum{
+	/* Aplicacion: INPUT 
+	Accion: Color de fondo para campos de entrada no editables*/
+	text-align:right;
+	background-color:  #EBEBEB;
+	border:solid 1px #a4c8fa; 
+	
+}
+
+.InputEditableNum{
+	/* Aplicacion: INPUT 
+	Accion: Color de fondo para campos de entrada editables*/
+	text-align:right;
+	background-color: #FFFFFF;
+	color: #5b5b5b;
+	border:solid 1px #a4c8fa
+}
+
+.TextBox
+{
+	/* Aplicacion: TEXTBOX
+	Accion: Indentación del texto*/
+    text-indent:0px;
+}
+
+.TextBoxNum
+{
+    /* Aplicacion: TEXTBOX
+	Accion: Alineación hacia la derecho de los campos numéricos*/
+    text-indent:0px;
+    text-align:right;  
+}
+/*************** Css para paginacion bggridpager.gif *****************/
+.PagerStyleGrid
+{
+    padding-top:10px;
+    font-size:14px;
+    background:url(../imagenes/bg_buttons.png) 100% 100% repeat-x;
+}
+
+.PagerStyleGrid table
+{
+    margin:4px auto 2px auto;
+}
+
+.PagerStyleGrid A
+{
+    text-decoration:none;
+    padding:10px;
+    background:url(../imagenes/bggridpagerNumber.gif) 50% 50% no-repeat;
+}
+.PagerStyleGrid A:Hover
+{
+    background:url(../imagenes/bggridpagerNumberHover.gif) 50% 50% no-repeat;
+}
+.PagerStyleGrid SPAN
+{
+    text-decoration:none;
+    padding:10px;
+    background:url(../imagenes/bggridpagerNumberHover.gif) 50% 50% no-repeat;
+}
+
+textboxSolo
+{
+    background-image: none;    
+}

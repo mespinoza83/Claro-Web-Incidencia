@@ -1,0 +1,225 @@
+#navbar {
+    height: 40px;
+    padding: 0px 0px 0px 5px;
+    margin: 0;
+    position: relative;
+    z-index: 900;
+    float: none;
+    width: 100%;
+}
+#navbar ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 1px;
+}
+#navbar ul li {
+    position: relative;
+    margin: 0;
+}
+
+/*Define el tama�o de fuente para el primer nivel*/
+#navbar ul li a { 
+	font-size:14px;
+}
+
+/*Define el tama�o de fuente para el segundo nivel*/
+#navbar ul li ul li a {
+	font-size:12px;
+}
+
+/*PARENT MENU*/
+#navbar a {
+    float: left;
+    color: #023070;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    height: 26px;
+    line-height: 26px;
+    padding: 0px 15px;
+    font-family: Arial, Trebuchet MS, Helvetica, sans-serif;
+}
+/*PARENT MENU ITEM HOVER*/
+#navbar li a:hover {
+    height: 31px;
+}
+#navbar ul li:hover,
+#navbar ul li.sfhover
+{
+    background: url(../imagenes/menu_over.gif) repeat left top;
+}
+/*ALL LISTS*/
+#navbar li {
+    float: left;
+    padding: 0;
+    width:auto;
+}
+#navbar ul li{
+    margin-right:0px;
+}
+
+#navbar ul li.parent{
+    margin-right:0px;
+    border-right: 1px solid #afcbdf;
+}
+
+#navbar ul li ul li {
+    margin-right: 0px;
+    background: url(../imagenes/menu_normal.gif) repeat-x 0% 100%;
+    border-top: 1px solid #bfc9ce;
+}
+
+#navbar ul li ul{
+    border-left: 1px solid #b5c6d0;
+    border-right: 1px solid #b5c6d0;
+    border-bottom: 1px solid #b5c6d0;
+}
+
+#navbar ul ul a {
+    color: #006699;
+}
+#navbar li:hover ul, 
+#navbar li li:hover ul, 
+#navbar li li li:hover ul, 
+#navbar li li li li:hover ul,
+#navbar li.sfhover ul, 
+#navbar li li.sfhover ul, 
+#navbar li li li.sfhover ul,
+#navbar li li li li.sfhover ul {
+    background: #ffffff;
+}
+/*DEFINE HOVER COLORS*/
+#navbar li:hover a, #navbar li.sfhover a {
+    color: #00115a;    
+}
+
+#navbar ul li ul li a:link,
+#navbar ul li ul li a:visited
+{
+    color: #006699;
+}
+#navbar ul li ul li a:hover,
+#navbar ul li.active ul li a:hover {
+    color: #004162;
+}
+/*SUBLEVEL STYLES*/
+/*SUBLEVEL TEXT STYLES*/
+#navbar li li a {
+    font-weight: normal;
+    padding: 0;
+    height: 26px;
+    line-height: 26px;
+    text-indent: 5px;
+}
+#navbar ul ul a {
+    display: block;
+    text-decoration: none;
+    width: 170px;
+    text-transform: none;
+}
+#navbar li li {
+    padding: 0;
+    background: none;
+}
+/*SUBLEVEL POSITIONING*/
+#navbar li li {
+    float: left;
+    padding: 0;
+    width: 173px;
+}
+#navbar li ul ul {
+    margin: -30px 0 0 226px;
+}
+#navbar li:hover, #navbar li.sfhover {
+    left: 0;
+}
+/*SUBLEVEL HOVER STYLES*/
+#navbar ul ul a:hover {
+    background: none;
+    height: 26px;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+#navbar li ul {
+    top: 31px;
+    position: absolute;
+    left: -999em;
+    height: auto;
+    width: 173px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+/* MAINLEVEL ACTIVE-A:LINK STYLE */
+#navbar li.active a:link,
+#navbar li.active a:visited,
+#navbar li.active ul.sfhover
+{
+    background: url(../imagenes/menu_active.gif) no-repeat left top;
+    color: #000;
+}
+/* SUBLEVEL ACTIVE-A:LINK STYLE */
+#navbar li.active ul li a:link,
+#navbar li.active ul li a:visited,
+#navbar li.active li
+{
+    color: #006699;
+    background-image: none;
+}
+/* SUBLEVEL ACTIVE-A:LINK:HOVER STYLE */
+#navbar li.active li a:hover,
+#navbar li.active li.hover {
+    color: #fff;
+    background-image: none;
+}
+/* SUBLEVEL LI BACKGROUND */
+#navbar li li:hover {
+    background: #ffffff;
+}
+/*SUBLEVEL PARENT INDICATORS*/
+#navbar ul li ul li a.child,
+#navbar ul li ul li a.child:hover {
+    background: url(../imagenes/arrow_right.gif) 100% 50% no-repeat;
+}
+#navbar ul li.active ul li a.child {
+    background: url(../imagenes/arrow_right.gif) 100% 50% no-repeat;
+}
+#navbar ul li ul li a:hover {
+    background-image: none;
+    background: url(../imagenes/submenu_over.gif) repeat 0% 100%;
+}
+/* HIDE OTHER LISTS FROM IE */
+#navbar li:hover ul ul, 
+#navbar li:hover ul ul ul,
+#navbar li:hover ul ul ul ul,  
+#navbar li.sfhover ul ul, 
+#navbar li.sfhover ul ul ul, 
+#navbar li.sfhover ul ul ul ul {
+    left: -999em;
+}
+#navbar li:hover ul, 
+#navbar li li:hover ul, 
+#navbar li li li:hover ul, 
+#navbar li li li li:hover ul,
+#navbar li.sfhover ul, 
+#navbar li li.sfhover ul, 
+#navbar li li li.sfhover ul,
+#navbar li li li li.sfhover ul {
+    z-index: 100;
+    left: 0;
+}
+/* BECAUSE IE DOESNT UNDERSTAND CSS EVEN IN 2007 */
+#navbar li.sfhover ul li.sfhover,
+#navbar li:hover ul li:hover {
+    background: url(../imagenes/submenu_over.gif) repeat 0% 100%;
+}
+#navbar li:hover li:hover a.child,
+#navbar li.sfhover li.sfhover a.child {
+    color: #fff;
+}
+
+/* @end */
